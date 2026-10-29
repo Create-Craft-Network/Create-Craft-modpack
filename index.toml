@@ -1,2 +1,15 @@
 hash-format = "sha256"
-files = []
+
+[[files]]
+file = "mods/create-deco.pw.toml"
+hash = "900880f684238d2489dc6859c354abc7b145c617dbdac42e1873604632b9c831"
+metafile = true
+
+[[files]]
+file = "mods/create-lazytick.pw.toml"
+hash = "f4a1d1004e77a359670868609cea8db3b3558b1e73a3bb2e3c66a3381fd36a3a"
+metafile = true
+
+[[files]]
+file = "mods/packwiz-installer-bootstrap.jar"
+hash = "a8fbb24dc604278e97f4688e82d3d91a318b98efc08d5dbfcbcbcab6443d116c"
