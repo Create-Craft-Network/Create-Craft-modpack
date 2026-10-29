@@ -1018,7 +1018,7 @@ hash = "1a1c63da454df2892901aafd7e38e1d47dafaa88017def469f09eba832a80c51"
 
 [[files]]
 file = "config/packupdater.properties"
-hash = "8ac05e77395f8ec0950a2f59a792d5d84bfc6ec7ee70944e72d55c8bbc948197"
+hash = "c549dbf3552ac58c5620e29e5ae08f8fa1dcaf3d41d006c1c391f141ddb93cfc"
 
 [[files]]
 file = "config/placebo.cfg"
@@ -2257,11 +2257,6 @@ hash = "e2edf339c98dbdcf04f46a15276e9b1b5bbdeee0f1ac8b7d9bddb1ee8e54b9a1"
 metafile = true
 
 [[files]]
-file = "mods/craftpresence.pw.toml"
-hash = "894e7039c73fbf9aebd3c7351788ec3f697245364032de184619898379058aed"
-metafile = true
-
-[[files]]
 file = "mods/crafttweaker.pw.toml"
 hash = "72ea48eeb92f1122ca23268b337af3f95c06f05ad5988e4165b5a86902352ccf"
 metafile = true
@@ -2831,22 +2826,12 @@ hash = "90ea1fdfbbf419e3c5943c134da0ecd30e3d42fcf124f81134de8db978b124b8"
 metafile = true
 
 [[files]]
-file = "mods/tfmw.pw.toml"
-hash = "bf513467b844a28023426b203726884c78bc48f17c1ae6f5d3c8a0ae87937a53"
-metafile = true
-
-[[files]]
 file = "mods/tsa_anticheat-1.5.0.jar"
 hash = "1f23149e22930ed95006af654c4feeecf886de2b79539eb7a8c471c0ed24b81b"
 
 [[files]]
 file = "mods/underground-bunkers.pw.toml"
 hash = "72a76e8337198b32ba0941ce4b5d03dc29b4080ac7708e226c74b3fc9cd88d8b"
-metafile = true
-
-[[files]]
-file = "mods/unilib.pw.toml"
-hash = "ac85e8e2c5aa312a57e873995405220e119ef5f5a89dfb02699b2c583873e7e8"
 metafile = true
 
 [[files]]
