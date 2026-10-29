@@ -1,0 +1,44 @@
+{
+  "display_name": "Master Crate",
+  "animation_type": "pulse",
+  "key_item": {
+    "custom_name": "Master Crate Key",
+    "glow": true,
+    "rarity": "epic",
+    "description": "Opens only the Most Powerful crate.",
+    "cooldown_seconds": 7.5
+  },
+  "block": {
+    "light_level": 12
+  },
+  "gui": {
+    "backgroundTexture": "helscrates:textures/gui/backgrounds/master.png",
+    "useScanlines": true,
+    "panelBaseColor": "0xFF4A148C",
+    "panelInnerColor": "0xE87B1FA2",
+    "borderOuterColor": "0x80F48FB1",
+    "borderInnerColor": "0x66FFFFFF",
+    "scanlineColor": "0xCE93D8"
+  },
+  "rewards": [
+    {
+      "type": "item",
+      "id": "pixelmon:poke_ball[pixelmon:poke_ball=master_ball]",
+      "count": 2,
+      "display_name": {
+        "text": "Twin Master Balls",
+        "color": "light_purple",
+        "bold": true
+      },
+      "weight": 35
+    },
+    {"type": "item", "id": "pixelmon:rare_candy", "count": 12, "weight": 65},
+    {"type": "item", "id": "minecraft:nether_star", "count": 1, "weight": 18},
+    {"type": "pokemon", "species": "Mewtwo", "level": 70, "weight": 6, "data": {"shiny": true}},
+    {"type": "pokemon", "species": "Rayquaza", "level": 65, "weight": 4},
+    {"type": "command", "command": "give %player% minecraft:totem_of_undying 1", "display": "Totem of Undying", "weight": 40},
+    {"type": "command", "command": "experience add %player% 500 points", "display": "500 XP", "weight": 50}
+  ],
+  "reward_count": {"min": 2, "max": 4},
+  "guaranteed_rewards": []
+}

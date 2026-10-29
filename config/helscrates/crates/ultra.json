@@ -1,0 +1,34 @@
+{
+  "display_name": "Ultra Crate",
+  "animation_type": "pulse",
+  "key_item": {
+    "custom_name": "Ultra Crate Key",
+    "glow": true,
+    "rarity": "rare",
+    "description": "Opens only the Ultra crate.",
+    "cooldown_seconds": 7.5
+  },
+  "block": {
+    "light_level": 10
+  },
+  "gui": {
+    "backgroundTexture": "helscrates:textures/gui/backgrounds/ultra.png",
+    "useScanlines": true,
+    "panelBaseColor": "0xFF1C1C1C",
+    "panelInnerColor": "0xE8333333",
+    "borderOuterColor": "0x80FFD600",
+    "borderInnerColor": "0x66000000",
+    "scanlineColor": "0xFFD600"
+  },
+  "rewards": [
+    {"type": "item", "id": "pixelmon:poke_ball[pixelmon:poke_ball=ultra_ball]", "count": 10, "display_name": "Ultra Ball", "weight": 110},
+    {"type": "item", "id": "pixelmon:poke_ball[pixelmon:poke_ball=master_ball]", "count": 1, "display_name": "Master Ball", "weight": 12},
+    {"type": "item", "id": "minecraft:netherite_scrap", "count": 2, "weight": 35},
+    {"type": "item", "id": "pixelmon:rare_candy", "count": 8, "weight": 75},
+    {"type": "pokemon", "species": "Gible", "level": 28, "weight": 30},
+    {"type": "pokemon", "species": "Lucario", "level": 32, "weight": 16},
+    {"type": "command", "command": "experience add %player% 250 points", "display": "250 XP", "weight": 55}
+  ],
+  "reward_count": {"min": 2, "max": 3},
+  "guaranteed_rewards": []
+}

@@ -1,0 +1,21 @@
+#Whether TSA security alerts are sent to Discord.
+#Alerts include failed packet checks and blacklisted resource-pack detections.
+#Default: false.
+webhook_enabled = false
+#Discord webhook URL.
+#Default: empty (webhook disabled until configured).
+#Keep this URL private.
+webhook_url = ""
+#LuckPerms permission required to use /tsa commands.
+#Operators with permission level 3 always have access.
+#Default: tsa_anticheat.command.
+command_permission = "tsa_anticheat.command"
+#LuckPerms permission for players who receive packet integrity broadcasts.
+#Operators with permission level 3 always receive them.
+#Default: tsa_anticheat.alerts.
+broadcast_permission = "tsa_anticheat.alerts"
+#Maximum time to wait for a packet integrity response.
+#Default: 5 seconds.
+# Default: 5
+# Range: 1 ~ 300
+packet_check_timeout_seconds = 5

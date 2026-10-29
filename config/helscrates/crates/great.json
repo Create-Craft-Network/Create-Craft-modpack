@@ -1,0 +1,34 @@
+{
+  "display_name": "Great Crate",
+  "animation_type": "spin",
+  "key_item": {
+    "custom_name": "Great Crate Key",
+    "glow": true,
+    "rarity": "uncommon",
+    "description": "Opens only the Great crate.",
+    "cooldown_seconds": 7.5
+  },
+  "block": {
+    "light_level": 7
+  },
+  "gui": {
+    "backgroundTexture": "helscrates:textures/gui/backgrounds/great.png",
+    "useScanlines": true,
+    "panelBaseColor": "0xFF0D47A1",
+    "panelInnerColor": "0xE81565C0",
+    "borderOuterColor": "0x8042A5F5",
+    "borderInnerColor": "0x66000000",
+    "scanlineColor": "0x1565C0"
+  },
+  "rewards": [
+    {"type": "item", "id": "pixelmon:poke_ball[pixelmon:poke_ball=great_ball]", "count": 8, "display_name": "Great Ball", "weight": 120},
+    {"type": "item", "id": "pixelmon:poke_ball[pixelmon:poke_ball=ultra_ball]", "count": 3, "display_name": "Ultra Ball", "weight": 75},
+    {"type": "item", "id": "minecraft:gold_ingot", "count": 18, "weight": 85},
+    {"type": "item", "id": "pixelmon:rare_candy", "count": 4, "weight": 65},
+    {"type": "pokemon", "species": "Eevee", "level": 18, "weight": 28},
+    {"type": "pokemon", "species": "Dratini", "level": 20, "weight": 10},
+    {"type": "command", "command": "give %player% minecraft:emerald 6", "display": "6 Emeralds", "weight": 60}
+  ],
+  "reward_count": {"min": 1, "max": 3},
+  "guaranteed_rewards": []
+}

@@ -1,0 +1,49 @@
+{
+  "display_name": "Poke Crate",
+  "animation_type": "spin",
+  "key_item": {
+    "custom_name": "Poke Crate Key",
+    "glow": true,
+    "description": "Opens only the most Basic crate.",
+    "rarity": "common",
+    "cooldown_seconds": 7.5
+  },
+  "block": {
+    "light_level": 5
+  },
+  "gui": {
+    "backgroundTexture": "helscrates:textures/gui/backgrounds/poke.png",
+    "useScanlines": true,
+    "panelBaseColor": "0xFFB71C1C",
+    "panelInnerColor": "0xE8FFFFFF",
+    "borderOuterColor": "0x80D32F2F",
+    "borderInnerColor": "0x66000000",
+    "scanlineColor": "0xD32F2F"
+  },
+  "rewards": [
+    {"type": "item", "id": "pixelmon:poke_ball", "count": 12, "weight": 140},
+    {"type": "item", "id": "pixelmon:poke_ball[pixelmon:poke_ball=great_ball]", "count": 4, "display_name": "Great Ball", "weight": 90},
+    {"type": "item", "id": "minecraft:iron_ingot", "count": 24, "weight": 110},
+    {"type": "item", "id": "pixelmon:rare_candy", "count": 2, "weight": 55},
+    {"type": "pokemon", "species": "Pidgey", "level": 8, "weight": 35},
+    {"type": "pokemon", "species": "Bulbasaur", "level": 10, "weight": 18},
+    {"type": "command", "command": "experience add %player% 50 points", "display": "50 XP", "weight": 70},
+    {
+      "type": "pokemon",
+      "species": "charizard",
+      "level": 50,
+      "weight": 150,
+      "guaranteed": false,
+      "display_name": "Inferno King",
+      "data": {
+        "shiny": false,
+        "palette": "zombie",
+        "ability": "Blaze",
+        "held_item": "minecraft:nether_star",
+        "moves": ["Flamethrower","Air Slash","Dragon Claw","Roost"]
+      }
+    }
+  ],
+  "reward_count": {"min": 1, "max": 2},
+  "guaranteed_rewards": []
+}

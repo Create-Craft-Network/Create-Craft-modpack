@@ -1,0 +1,13 @@
+name = "Create Aeronautics: Alcubierre"
+filename = "alcubierre-1.2.6.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "154b0a6d9abe6fdbc76b3a09ae38d21c100a21a8"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8308074
+project-id = 1545644
