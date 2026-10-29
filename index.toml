@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "README"
+hash = "276a567f131b95c16cb451401c1f3afc104152cb2229203e345374cd7f6700f6"
+
+[[files]]
 file = "config/CSC/CSC_Warn.log"
 hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
@@ -1014,7 +1018,7 @@ hash = "1a1c63da454df2892901aafd7e38e1d47dafaa88017def469f09eba832a80c51"
 
 [[files]]
 file = "config/packupdater.properties"
-hash = "5d328aa1f72733e12695e5b55e8d77260344903a0ee27163c50c15bcccc6881f"
+hash = "fc2bb72b8a98ffc6c13562fe7e3a928c507fff18495b9d255f80525793ea4529"
 
 [[files]]
 file = "config/placebo.cfg"
