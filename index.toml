@@ -1014,7 +1014,7 @@ hash = "1a1c63da454df2892901aafd7e38e1d47dafaa88017def469f09eba832a80c51"
 
 [[files]]
 file = "config/packupdater.properties"
-hash = "da8c0968ba5cc1dccc469824ed6ba29b883dfc8065f02a9b6332440e34824c1e"
+hash = "5d328aa1f72733e12695e5b55e8d77260344903a0ee27163c50c15bcccc6881f"
 
 [[files]]
 file = "config/placebo.cfg"
