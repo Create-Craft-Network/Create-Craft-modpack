@@ -2831,11 +2831,6 @@ hash = "90ea1fdfbbf419e3c5943c134da0ecd30e3d42fcf124f81134de8db978b124b8"
 metafile = true
 
 [[files]]
-file = "mods/tfmw.pw.toml"
-hash = "bf513467b844a28023426b203726884c78bc48f17c1ae6f5d3c8a0ae87937a53"
-metafile = true
-
-[[files]]
 file = "mods/tsa_anticheat-1.5.0.jar"
 hash = "1f23149e22930ed95006af654c4feeecf886de2b79539eb7a8c471c0ed24b81b"
 
