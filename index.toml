@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "Changelog.txt"
-hash = "ca7550a0a10ae7b4aec363280d0e1f8862cf01319a06f3123628819f7cbe31fa"
+hash = "10e34babf4a657b9d78b6b74410f659e2418085625f355cf52d3d937ee94f25c"
 
 [[files]]
 file = "README.me"
