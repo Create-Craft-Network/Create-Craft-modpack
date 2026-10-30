@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "Changelog.txt"
-hash = "e4ffc152f81ed45c16b81d9dc01d249c5c9d742a79d40e1c05a461d102ad3fe6"
+hash = "ca7550a0a10ae7b4aec363280d0e1f8862cf01319a06f3123628819f7cbe31fa"
 
 [[files]]
 file = "README.me"
@@ -2276,6 +2276,11 @@ hash = "6b7d1eab81e980aef92c857323159cc4b1bc0471016eddd024cc0377f76749c7"
 metafile = true
 
 [[files]]
+file = "mods/create-aeronautics-dyeable-components.pw.toml"
+hash = "8f4c3ea13a0c7c738476e0a8f3b60b81ade57db7444dfabc3d2d619c0dcf9fbf"
+metafile = true
+
+[[files]]
 file = "mods/create-aeronautics-transmission-linkage.pw.toml"
 hash = "26f50a0bc609b96aa1e2ad85cea1e17ba622580947fe75f1967b52b09185f2cb"
 metafile = true
@@ -2443,11 +2448,6 @@ metafile = true
 [[files]]
 file = "mods/create-security-program.pw.toml"
 hash = "5cfadf48dc2de2eed72170c3e5744adbd6d9c048a9d6aeb9b0ace028a2c14a3d"
-metafile = true
-
-[[files]]
-file = "mods/create-threaded-trains.pw.toml"
-hash = "5b38747d6ac0f9b216885a6a1d45508354a0ab6077d72510c73b65e147210ca5"
 metafile = true
 
 [[files]]
