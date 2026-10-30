@@ -2392,6 +2392,11 @@ hash = "9e316742ce34c3ecd099558f079ef791bf70a3719d8f6cd63dc05b83ef363ae3"
 metafile = true
 
 [[files]]
+file = "mods/create-nowheel.pw.toml"
+hash = "3233a8215c6962c2fdc3569ec5256a723bfc9b48a4c275cf23f8f7d5d2847610"
+metafile = true
+
+[[files]]
 file = "mods/create-numismatics-create-6-0-integration.pw.toml"
 hash = "37cedf9219acc2d5b20edfea3595d6a066ebbf0c70189f8c2821b561d3acfc12"
 metafile = true
@@ -2434,6 +2439,11 @@ metafile = true
 [[files]]
 file = "mods/create-security-program.pw.toml"
 hash = "5cfadf48dc2de2eed72170c3e5744adbd6d9c048a9d6aeb9b0ace028a2c14a3d"
+metafile = true
+
+[[files]]
+file = "mods/create-threaded-trains.pw.toml"
+hash = "5b38747d6ac0f9b216885a6a1d45508354a0ab6077d72510c73b65e147210ca5"
 metafile = true
 
 [[files]]
@@ -2778,6 +2788,11 @@ metafile = true
 [[files]]
 file = "mods/steel-armor-blocks.pw.toml"
 hash = "74224a1a64ddca85ae25c47096685800fdbc5736cb3f549980c61321603d6c33"
+metafile = true
+
+[[files]]
+file = "mods/stellarcreateoptimization.pw.toml"
+hash = "d75fe6f79aba369aff1a4b5c4a0f6705c27e570f87094d81f24016bcecbe83e8"
 metafile = true
 
 [[files]]
