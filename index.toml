@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "Changelog.txt"
+hash = "e4ffc152f81ed45c16b81d9dc01d249c5c9d742a79d40e1c05a461d102ad3fe6"
+
+[[files]]
 file = "README.me"
 hash = "ed2272504e4c647077ef6e1ceb3cf29ec58018d1994364e616052ede6329db09"
 
@@ -2393,7 +2397,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-nowheel.pw.toml"
-hash = "3233a8215c6962c2fdc3569ec5256a723bfc9b48a4c275cf23f8f7d5d2847610"
+hash = "4a79a084b9d281b4f807957653e09905a585ea059d20617ee6d42c1df24f7b54"
 metafile = true
 
 [[files]]
