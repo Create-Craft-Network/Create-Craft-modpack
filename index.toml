@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "Changelog.txt"
+hash = "10e34babf4a657b9d78b6b74410f659e2418085625f355cf52d3d937ee94f25c"
+
+[[files]]
 file = "README.me"
 hash = "ed2272504e4c647077ef6e1ceb3cf29ec58018d1994364e616052ede6329db09"
 
@@ -1018,7 +1022,7 @@ hash = "1a1c63da454df2892901aafd7e38e1d47dafaa88017def469f09eba832a80c51"
 
 [[files]]
 file = "config/packupdater.properties"
-hash = "229e9231a24074e4ca760e7aeff3f2c70e31d044332bcdd80566936a667f8fbc"
+hash = "c549dbf3552ac58c5620e29e5ae08f8fa1dcaf3d41d006c1c391f141ddb93cfc"
 
 [[files]]
 file = "config/placebo.cfg"
@@ -2272,6 +2276,11 @@ hash = "6b7d1eab81e980aef92c857323159cc4b1bc0471016eddd024cc0377f76749c7"
 metafile = true
 
 [[files]]
+file = "mods/create-aeronautics-dyeable-components.pw.toml"
+hash = "8f4c3ea13a0c7c738476e0a8f3b60b81ade57db7444dfabc3d2d619c0dcf9fbf"
+metafile = true
+
+[[files]]
 file = "mods/create-aeronautics-transmission-linkage.pw.toml"
 hash = "26f50a0bc609b96aa1e2ad85cea1e17ba622580947fe75f1967b52b09185f2cb"
 metafile = true
@@ -2389,6 +2398,11 @@ metafile = true
 [[files]]
 file = "mods/create-marketplace.pw.toml"
 hash = "9e316742ce34c3ecd099558f079ef791bf70a3719d8f6cd63dc05b83ef363ae3"
+metafile = true
+
+[[files]]
+file = "mods/create-nowheel.pw.toml"
+hash = "4a79a084b9d281b4f807957653e09905a585ea059d20617ee6d42c1df24f7b54"
 metafile = true
 
 [[files]]
@@ -2778,6 +2792,11 @@ metafile = true
 [[files]]
 file = "mods/steel-armor-blocks.pw.toml"
 hash = "74224a1a64ddca85ae25c47096685800fdbc5736cb3f549980c61321603d6c33"
+metafile = true
+
+[[files]]
+file = "mods/stellarcreateoptimization.pw.toml"
+hash = "d75fe6f79aba369aff1a4b5c4a0f6705c27e570f87094d81f24016bcecbe83e8"
 metafile = true
 
 [[files]]
