@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "Changelog.txt"
+hash = "10e34babf4a657b9d78b6b74410f659e2418085625f355cf52d3d937ee94f25c"
+
+[[files]]
 file = "README.me"
 hash = "ed2272504e4c647077ef6e1ceb3cf29ec58018d1994364e616052ede6329db09"
 
@@ -1018,7 +1022,7 @@ hash = "1a1c63da454df2892901aafd7e38e1d47dafaa88017def469f09eba832a80c51"
 
 [[files]]
 file = "config/packupdater.properties"
-hash = "b584fd74c6a57d4d3d3010dd4c7b6519d7e6b7d4abc542576bf0a2a7f3b0f555"
+hash = "c549dbf3552ac58c5620e29e5ae08f8fa1dcaf3d41d006c1c391f141ddb93cfc"
 
 [[files]]
 file = "config/placebo.cfg"
