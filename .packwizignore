@@ -1,5 +1,6 @@
 /builds/*
 /.gitignore
 /.git/*
-/.README.me
+/.README.md
 /Changelog.txt
+/icon.png
