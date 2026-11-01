@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "Changelog.txt"
+hash = "e9f590874193f9ce68e7980b37d3136cb024c31f40e07b1156b34860f0e1c00e"
+
+[[files]]
 file = "README.md"
 hash = "cd3fad8229a616ca6a013eba6deb03f96b3f1304415eb0a064a8a307fed44106"
 
@@ -2117,6 +2121,10 @@ file = "config/yacl.json5"
 hash = "121b93764159be6fb7dab523b29a844e2bb78400ce8c48f52135a097e9b0006e"
 
 [[files]]
+file = "icon.png"
+hash = "6352f60a73b093ed492f5fcbd68f7a4027fad429498cf0b3ac5a5f8b4af33893"
+
+[[files]]
 file = "kubejs/README.txt"
 hash = "989f3737ae4621b8ff6730bce4cbeeee756921e7e510e0c281c8a350501d98af"
 
@@ -2836,8 +2844,8 @@ hash = "90ea1fdfbbf419e3c5943c134da0ecd30e3d42fcf124f81134de8db978b124b8"
 metafile = true
 
 [[files]]
-file = "mods/tsa_anticheat-1.6.1.jar"
-hash = "5d903f49491f79d99efc70ecad7b7a703738f9427cd5e1bc907521b5a2b9cbd4"
+file = "mods/tsa_anticheat-1.5.0.jar"
+hash = "1f23149e22930ed95006af654c4feeecf886de2b79539eb7a8c471c0ed24b81b"
 
 [[files]]
 file = "mods/underground-bunkers.pw.toml"
