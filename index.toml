@@ -1,8 +1,8 @@
 hash-format = "sha256"
 
 [[files]]
-file = "README.me"
-hash = "ed2272504e4c647077ef6e1ceb3cf29ec58018d1994364e616052ede6329db09"
+file = "README.md"
+hash = "cd3fad8229a616ca6a013eba6deb03f96b3f1304415eb0a064a8a307fed44106"
 
 [[files]]
 file = "config/CSC/CSC_Warn.log"
@@ -2792,11 +2792,6 @@ metafile = true
 [[files]]
 file = "mods/steel-armor-blocks.pw.toml"
 hash = "74224a1a64ddca85ae25c47096685800fdbc5736cb3f549980c61321603d6c33"
-metafile = true
-
-[[files]]
-file = "mods/stellarcreateoptimization.pw.toml"
-hash = "d75fe6f79aba369aff1a4b5c4a0f6705c27e570f87094d81f24016bcecbe83e8"
 metafile = true
 
 [[files]]
