@@ -1,6 +1,7 @@
 /builds/*
 /.gitignore
+/.packwizignore
 /.git/*
-/.README.md
-/.Changelog.txt
-/.icon.png
+/README.md
+/Changelog.txt
+/icon.png
