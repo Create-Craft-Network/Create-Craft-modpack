@@ -2836,8 +2836,8 @@ hash = "90ea1fdfbbf419e3c5943c134da0ecd30e3d42fcf124f81134de8db978b124b8"
 metafile = true
 
 [[files]]
-file = "mods/tsa_anticheat-1.6.1.jar"
-hash = "5d903f49491f79d99efc70ecad7b7a703738f9427cd5e1bc907521b5a2b9cbd4"
+file = "mods/tsa_anticheat-1.5.0.jar"
+hash = "1f23149e22930ed95006af654c4feeecf886de2b79539eb7a8c471c0ed24b81b"
 
 [[files]]
 file = "mods/underground-bunkers.pw.toml"
