@@ -2601,10 +2601,6 @@ hash = "17b5bef818ac8c504958db422aba2f1cc79979da41a71b0ecb793f85accf30df"
 metafile = true
 
 [[files]]
-file = "mods/lagfix.WIP-1.0.0-neoforge-1.21.1.jar"
-hash = "6f1993e72f8bc8e50c04c876286f644ef84e339e48dc966921794060682f6ab3"
-
-[[files]]
 file = "mods/ldlib.pw.toml"
 hash = "caf6cf6430150b3eaa292f50f559df9ffe5314dcd9668154954da2748dd39c8f"
 metafile = true
