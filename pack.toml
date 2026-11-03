@@ -1,0 +1,13 @@
+name = "Create Craft"
+author = "Piotrusek"
+version = "6.6.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "d60d8b18c966fa5447d5adb33dc135210cffcb2e8d70a72481e8de651bc8e5af"
+
+[versions]
+minecraft = "1.21.1"
+neoforge = "21.1.249"
