@@ -1013,10 +1013,6 @@ file = "config/openpartiesandclaims-server.toml"
 hash = "1a1c63da454df2892901aafd7e38e1d47dafaa88017def469f09eba832a80c51"
 
 [[files]]
-file = "config/packupdater.properties"
-hash = "642027fc36c607a964a3d9516a12d4e54610811b93d613e023263fe5ef5b2661"
-
-[[files]]
 file = "config/placebo.cfg"
 hash = "eb7e9906d126543f03c2257ca98efa4b845d1e7479dc8b069a12b194c86debcf"
 
