@@ -8,7 +8,7 @@
 None
 
 ## ⚙️ Changed
-None
+- Discord hook
 
 ## 🗑️ Removed
 None
