@@ -3,7 +3,7 @@
 ## Write your message below. <this isn't shown>
 
 ## ✨ Added
-
+- Discord changelog hook
 ## 🐛 Fixed
 
 ## ⚙️ Changed
