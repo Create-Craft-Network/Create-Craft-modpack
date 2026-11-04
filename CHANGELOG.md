@@ -7,7 +7,7 @@
 ## 🐛 Fixed
 
 ## ⚙️ Changed
-
+- Tsa anticheat
 ## 🗑️ Removed
 
 ---
