@@ -33,7 +33,7 @@ jobs:
               f"{changelog}\n\n"
               "━━━━━━━━━━━━━━━━━━━━\n"
               "📦 **Full changelog:**\n"
-              "https://github.com/Create-Craft-Network/Create-Craft-modpack/blob/main/CHANGELOG.md"
+              "https://github.com/Create-Craft-Network/Create-Craft-modpack/blob/dev/CHANGELOG.md"
           )
 
           content = content[:1950]

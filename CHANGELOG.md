@@ -2,7 +2,7 @@
 # 🚀 Create Craft Network - Version 1.0.0
 
 ## ✨ Added
-- Test
+- Test 2
 
 ## 🐛 Fixed
 - Idk
