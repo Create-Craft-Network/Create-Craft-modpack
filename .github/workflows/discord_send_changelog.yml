@@ -1,29 +1,10 @@
 
-name: Notify Discord about changelog
-
-on:
-  push:
-    branches:
-      - dev
-    paths:
-      - CHANGELOG.md
-
-jobs:
-  notify:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-
       - name: Send changelog to Discord
         env:
           WEBHOOK: ${{ secrets.DISCORD_WEBHOOK_URL }}
         run: |
           python3 - <<'PY'
           import json
-          import os
-          import urllib.request
-          import urllib.error
 
           with open("CHANGELOG.md", encoding="utf-8") as f:
               changelog = f.read()
@@ -39,22 +20,15 @@ jobs:
 
           content = content[:1950]
 
-          data = json.dumps({
-              "content": content,
-              "allowed_mentions": {"parse": []}
-          }).encode()
-
-          request = urllib.request.Request(
-              os.environ["WEBHOOK"],
-              data=data,
-              headers={"Content-Type": "application/json"}
-          )
-
-          try:
-              response = urllib.request.urlopen(request)
-              print(f"Discord response: {response.status}")
-          except urllib.error.HTTPError as e:
-              print(f"Discord error: {e.code}")
-              print(e.read().decode())
-              raise 
+          with open("discord_payload.json", "w", encoding="utf-8") as f:
+              json.dump({
+                  "content": content,
+                  "allowed_mentions": {"parse": []}
+              }, f)
           PY
+
+          curl --fail-with-body \
+            -H "Content-Type: application/json" \
+            -X POST \
+            --data @discord_payload.json \
+            "$WEBHOOK"
