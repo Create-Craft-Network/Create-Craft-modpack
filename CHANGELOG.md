@@ -11,7 +11,7 @@
 - Changelog hook
 
 ## 🗑️ Removed
-
+None
 ---
 
 **📦 Thank you for playing Create Craft!**

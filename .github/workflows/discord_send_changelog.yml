@@ -47,13 +47,17 @@ jobs:
               start = match.end()
               end = matches[i + 1].start() if i + 1 < len(matches) else len(changelog)
 
-              value = changelog[start:end].strip()
+              value = changelog[start:end]
 
-              # Remove horizontal separators and whitespace
-              value = re.sub(r'(?m)^\s*---+\s*$', '', value).strip()
+              # Cut the section off at the first horizontal separator,
+              # so the footer text isn't counted as section content
+              value = re.split(r'(?m)^\s*---+\s*$', value, maxsplit=1)[0].strip()
 
               # Remove empty Markdown list items
               value = re.sub(r'(?m)^\s*[-*+]\s*$', '', value).strip()
+              # Skip placeholder-only sections
+              if re.fullmatch(r'(?i)[-*+]?\s*(none|n/?a|nothing|-)\.?', value):
+                  continue
 
               # Skip empty sections
               if not value or not re.search(r'\S', value):
