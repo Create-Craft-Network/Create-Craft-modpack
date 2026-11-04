@@ -3,7 +3,7 @@ name: Notify Discord about changelog
 'on':
   push:
     branches:
-      - dev
+      - main
     paths:
       - CHANGELOG.md
 
@@ -86,7 +86,7 @@ jobs:
           # Create Discord embed
           embed = {
               "title": title[:256],
-              "url": "https://github.com/Create-Craft-Network/Create-Craft-modpack/blob/dev/CHANGELOG.md",
+              "url": "https://github.com/Create-Craft-Network/Create-Craft-modpack/blob/main/CHANGELOG.md",
               "color": 5793266,
               "timestamp": datetime.now(timezone.utc).isoformat(),
               "footer": {
