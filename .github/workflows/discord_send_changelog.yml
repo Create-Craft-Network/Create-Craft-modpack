@@ -40,6 +40,7 @@ jobs:
 
           fields = []
           footer_text = ""
+          message_text = ""
 
           for i, match in enumerate(matches):
               name = match.group(1).strip()
@@ -58,12 +59,17 @@ jobs:
               # Remove empty Markdown list items
               value = re.sub(r'(?m)^\s*[-*+]\s*$', '', value).strip()
 
-              # Skip placeholder-only sections
-              if re.fullmatch(r'(?i)[-*+]?\s*(none|n/?a|nothing|-)\.?', value):
-                  continue
-
               # Skip empty sections
               if not value or not re.search(r'\S', value):
+                  continue
+
+              # Update message section: shown without its header
+              if re.match(r'(?i)write your message below', name):
+                  message_text = value[:4096]
+                  continue
+
+              # Skip placeholder-only sections
+              if re.fullmatch(r'(?i)[-*+]?\s*(none|n/?a|nothing|-)\.?', value):
                   continue
 
               fields.append({
@@ -71,6 +77,11 @@ jobs:
                   "value": value[:1024],
                   "inline": False
               })
+
+          # Nothing to announce: don't send anything
+          if not fields and not message_text:
+              print("All sections are empty, skipping Discord notification.")
+              raise SystemExit(0)
 
           # Create Discord embed
           embed = {
@@ -84,8 +95,19 @@ jobs:
               "fields": []
           }
 
+          # Update message goes in the description (no header)
+          if message_text:
+              embed["description"] = message_text
+
           # Respect Discord's 6000-character embed limit (reserve room for the footer field)
-          remaining = 6000 - len(embed["title"]) - len(embed["footer"]["text"]) - len(footer_text) - 1
+          remaining = (
+              6000
+              - len(embed["title"])
+              - len(embed["footer"]["text"])
+              - len(message_text)
+              - len(footer_text)
+              - 1
+          )
 
           for field in fields[:24]:
               name = field["name"]
@@ -106,9 +128,6 @@ jobs:
 
               remaining -= len(name) + len(value)
 
-          if not embed["fields"]:
-              embed["description"] = "No non-empty changelog sections found."
-
           # Closing message ("Thank you for playing...") as the last field
           if footer_text:
               embed["fields"].append({
@@ -127,6 +146,11 @@ jobs:
               json.dump(payload, f, ensure_ascii=False)
 
           PY
+
+          # No payload means nothing to send
+          if [ ! -f discord_payload.json ]; then
+            exit 0
+          fi
 
           curl --fail-with-body \
             -H "Content-Type: application/json" \
