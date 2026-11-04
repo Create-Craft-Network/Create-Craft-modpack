@@ -5,9 +5,9 @@
 ## ✨ Added
 - Discord changelog hook
 ## 🐛 Fixed
-
+- Tsa anticheat no longer causing game to crash in singleplayer
 ## ⚙️ Changed
-- Tsa anticheat
+- Tsa anticheat updated to newer version
 ## 🗑️ Removed
 
 ---
