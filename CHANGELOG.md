@@ -2,7 +2,7 @@
 # 🚀 Create Craft Network - Version 6.6.0
 
 ## ✨ Added
-- Discord hook
+- Discord hook test
 
 ## 🐛 Fixed
 None
