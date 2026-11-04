@@ -22,30 +22,96 @@ jobs:
         run: |
           python3 - <<'PY'
           import json
+          import re
+          from datetime import datetime, timezone
 
           with open("CHANGELOG.md", encoding="utf-8") as f:
               changelog = f.read()
 
-          content = (
-              "📢 **CHANGELOG UPDATED**\n"
-              "━━━━━━━━━━━━━━━━━━━━\n\n"
-              f"{changelog}\n\n"
-              "━━━━━━━━━━━━━━━━━━━━\n"
-              "📦 **Full changelog:**\n"
-              "https://github.com/Create-Craft-Network/Create-Craft-modpack/blob/dev/CHANGELOG.md"
-          )
+          # Extract version/title
+          title_match = re.search(r'^#\s+(.+)$', changelog, re.MULTILINE)
+          title = title_match.group(1).strip() if title_match else "Changelog Updated"
 
-          content = content[:1950]
+          # Extract changelog sections (## headings)
+          matches = list(re.finditer(
+              r'^##\s+(.+?)\s*$',
+              changelog,
+              re.MULTILINE
+          ))
+
+          fields = []
+
+          for i, match in enumerate(matches):
+              name = match.group(1).strip()
+
+              start = match.end()
+              end = matches[i + 1].start() if i + 1 < len(matches) else len(changelog)
+
+              value = changelog[start:end].strip()
+
+              # Remove horizontal separators
+              value = re.sub(r'(?m)^\s*---+\s*$', '', value).strip()
+
+              # Skip empty sections
+              if not value:
+                  continue
+
+              fields.append({
+                  "name": name[:256],
+                  "value": value[:1024],
+                  "inline": False
+              })
+
+          # Create Discord embed
+          embed = {
+              "title": title[:256],
+              "url": "https://github.com/Create-Craft-Network/Create-Craft-modpack/blob/dev/CHANGELOG.md",
+              "color": 5793266,
+              "timestamp": datetime.now(timezone.utc).isoformat(),
+              "footer": {
+                  "text": "Create Craft Network • Changelog"
+              },
+              "fields": []
+          }
+
+          # Respect Discord's 6000-character embed limit
+          remaining = 6000 - len(embed["title"]) - len(embed["footer"]["text"])
+
+          for field in fields[:25]:
+              name = field["name"]
+              value = field["value"]
+
+              available = remaining - len(name)
+
+              if available <= 0:
+                  break
+
+              value = value[:min(1024, available)]
+
+              embed["fields"].append({
+                  "name": name,
+                  "value": value,
+                  "inline": False
+              })
+
+              remaining -= len(name) + len(value)
+
+          if not embed["fields"]:
+              embed["description"] = "No non-empty changelog sections found."
+
+          # Prepare webhook payload
+          payload = {
+              "embeds": [embed],
+              "allowed_mentions": {"parse": []}
+          }
 
           with open("discord_payload.json", "w", encoding="utf-8") as f:
-              json.dump({
-                  "content": content,
-                  "allowed_mentions": {"parse": []}
-              }, f)
+              json.dump(payload, f, ensure_ascii=False)
+
           PY
 
           curl --fail-with-body \
             -H "Content-Type: application/json" \
             -X POST \
-            --data @discord_payload.json \
+            --data-binary @discord_payload.json \
             "$WEBHOOK"

@@ -11,7 +11,6 @@
 - Changelog hook
 
 ## 🗑️ Removed
-- Nothing
 
 ---
 
