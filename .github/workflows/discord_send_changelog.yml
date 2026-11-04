@@ -1,0 +1,159 @@
+name: Notify Discord about changelog
+
+'on':
+  push:
+    branches:
+      - main
+    paths:
+      - CHANGELOG.md
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Send changelog to Discord
+        env:
+          WEBHOOK: ${{ secrets.DISCORD_WEBHOOK_URL_UPDATES }}
+        run: |
+          python3 - <<'PY'
+          import json
+          import re
+          from datetime import datetime, timezone
+
+          with open("CHANGELOG.md", encoding="utf-8") as f:
+              changelog = f.read()
+
+          # Extract version/title
+          title_match = re.search(r'^#\s+(.+)$', changelog, re.MULTILINE)
+          title = title_match.group(1).strip() if title_match else "Changelog Updated"
+
+          # Extract changelog sections (## headings)
+          matches = list(re.finditer(
+              r'^##\s+(.+?)\s*$',
+              changelog,
+              re.MULTILINE
+          ))
+
+          fields = []
+          footer_text = ""
+          message_text = ""
+
+          for i, match in enumerate(matches):
+              name = match.group(1).strip()
+
+              start = match.end()
+              end = matches[i + 1].start() if i + 1 < len(matches) else len(changelog)
+
+              # Split the section at the first horizontal separator
+              parts = re.split(r'(?m)^\s*---+\s*$', changelog[start:end], maxsplit=1)
+              value = parts[0].strip()
+
+              # Anything after the separator in the last section is the footer
+              if i == len(matches) - 1 and len(parts) > 1:
+                  footer_text = parts[1].strip()[:1024]
+
+              # Remove empty Markdown list items
+              value = re.sub(r'(?m)^\s*[-*+]\s*$', '', value).strip()
+
+              # Skip empty sections
+              if not value or not re.search(r'\S', value):
+                  continue
+
+              # Update message section: shown without its header
+              if re.match(r'(?i)write your message below', name):
+                  message_text = value[:4096]
+                  continue
+
+              # Skip placeholder-only sections
+              if re.fullmatch(r'(?i)[-*+]?\s*(none|n/?a|nothing|-)\.?', value):
+                  continue
+
+              fields.append({
+                  "name": name[:256],
+                  "value": value[:1024],
+                  "inline": False
+              })
+
+          # Nothing to announce: don't send anything
+          if not fields and not message_text:
+              print("All sections are empty, skipping Discord notification.")
+              raise SystemExit(0)
+
+          # Create Discord embed
+          embed = {
+              "title": title[:256],
+              "url": "https://github.com/Create-Craft-Network/Create-Craft-modpack/blob/main/CHANGELOG.md",
+              "color": 5793266,
+              "timestamp": datetime.now(timezone.utc).isoformat(),
+              "footer": {
+                  "text": "Create Craft Network • Changelog"
+              },
+              "fields": []
+          }
+
+          # Update message goes in the description (no header)
+          if message_text:
+              embed["description"] = message_text
+
+          # Respect Discord's 6000-character embed limit (reserve room for the footer field)
+          remaining = (
+              6000
+              - len(embed["title"])
+              - len(embed["footer"]["text"])
+              - len(message_text)
+              - len(footer_text)
+              - 1
+          )
+
+          for field in fields[:24]:
+              name = field["name"]
+              value = field["value"]
+
+              available = remaining - len(name)
+
+              if available <= 0:
+                  break
+
+              value = value[:min(1024, available)]
+
+              embed["fields"].append({
+                  "name": name,
+                  "value": value,
+                  "inline": False
+              })
+
+              remaining -= len(name) + len(value)
+
+          # Closing message ("Thank you for playing...") as the last field
+          if footer_text:
+              embed["fields"].append({
+                  "name": "\u200b",  # invisible title (Discord requires a non-empty name)
+                  "value": footer_text,
+                  "inline": False
+              })
+
+          # Prepare webhook payload
+          payload = {
+              "embeds": [embed],
+              "allowed_mentions": {"parse": []}
+          }
+
+          with open("discord_payload.json", "w", encoding="utf-8") as f:
+              json.dump(payload, f, ensure_ascii=False)
+
+          PY
+
+          # No payload means nothing to send
+          if [ ! -f discord_payload.json ]; then
+            exit 0
+          fi
+
+          curl --fail-with-body \
+            -H "Content-Type: application/json" \
+            -X POST \
+            --data-binary @discord_payload.json \
+            "$WEBHOOK"
