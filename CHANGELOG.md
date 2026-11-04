@@ -2,7 +2,6 @@
 # 🚀 Create Craft - Version 6.6.0
 ## Write your message below. <this isn't shown>
 
-
 ## ✨ Added
 
 ## 🐛 Fixed
