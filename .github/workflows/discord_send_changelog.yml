@@ -23,6 +23,7 @@ jobs:
           import json
           import os
           import urllib.request
+          import urllib.error
 
           with open("CHANGELOG.md", encoding="utf-8") as f:
               changelog = f.read()
@@ -49,5 +50,11 @@ jobs:
               headers={"Content-Type": "application/json"}
           )
 
-          urllib.request.urlopen(request)
+          try:
+              response = urllib.request.urlopen(request)
+              print(f"Discord response: {response.status}")
+          except urllib.error.HTTPError as e:
+              print(f"Discord error: {e.code}")
+              print(e.read().decode())
+              raise 
           PY
