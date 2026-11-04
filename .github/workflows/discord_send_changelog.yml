@@ -49,11 +49,14 @@ jobs:
 
               value = changelog[start:end].strip()
 
-              # Remove horizontal separators
+              # Remove horizontal separators and whitespace
               value = re.sub(r'(?m)^\s*---+\s*$', '', value).strip()
 
+              # Remove empty Markdown list items
+              value = re.sub(r'(?m)^\s*[-*+]\s*$', '', value).strip()
+
               # Skip empty sections
-              if not value:
+              if not value or not re.search(r'\S', value):
                   continue
 
               fields.append({

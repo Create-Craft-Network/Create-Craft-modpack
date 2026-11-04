@@ -1,5 +1,5 @@
 
-# 🚀 Create Craft Network - Version 1.0.0
+# 🚀 Create Craft Network - Version 6.6.0
 
 ## ✨ Added
 - Test 6
