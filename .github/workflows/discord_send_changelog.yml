@@ -1,0 +1,53 @@
+
+name: Notify Discord about changelog
+
+on:
+  push:
+    branches:
+      - dev
+    paths:
+      - CHANGELOG.md
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Send changelog to Discord
+        env:
+          WEBHOOK: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        run: |
+          python3 - <<'PY'
+          import json
+          import os
+          import urllib.request
+
+          with open("CHANGELOG.md", encoding="utf-8") as f:
+              changelog = f.read()
+
+          content = (
+              "📢 **CHANGELOG UPDATED**\n"
+              "━━━━━━━━━━━━━━━━━━━━\n\n"
+              f"{changelog}\n\n"
+              "━━━━━━━━━━━━━━━━━━━━\n"
+              "📦 **Full changelog:**\n"
+              "https://github.com/Create-Craft-Network/Create-Craft-modpack/blob/main/CHANGELOG.md"
+          )
+
+          content = content[:1950]
+
+          data = json.dumps({
+              "content": content,
+              "allowed_mentions": {"parse": []}
+          }).encode()
+
+          request = urllib.request.Request(
+              os.environ["WEBHOOK"],
+              data=data,
+              headers={"Content-Type": "application/json"}
+          )
+
+          urllib.request.urlopen(request)
+          PY
