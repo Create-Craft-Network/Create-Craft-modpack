@@ -9,7 +9,7 @@
 ## ⚙️ Changed
 - Tsa anticheat updated to newer version
 ## 🗑️ Removed
-
+None
 ---
 
 **📦 Thank you for playing Create Craft!**
