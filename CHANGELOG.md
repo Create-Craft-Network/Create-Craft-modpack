@@ -2,26 +2,19 @@
 # 🚀 Create Craft Network - Version 1.0.0
 
 ## ✨ Added
-- Added new modpack features.
-- Added new custom configurations.
-- Added several new mods.
+- Test
 
 ## 🐛 Fixed
-- Fixed crashes during startup.
-- Fixed mod compatibility issues.
-- Fixed several minor bugs.
+- Idk
 
 ## ⚙️ Changed
-- Updated mods to their latest versions.
-- Improved overall performance.
-- Optimized loading times.
+- Changelog hook
 
 ## 🗑️ Removed
-- Removed outdated mods.
-- Removed deprecated configurations.
+- Nothing
 
 ---
 
-**📦 Thank you for playing Create Craft Network!**
+**📦 Thank you for playing Create Craft!**
 
 Stay tuned for future updates!
