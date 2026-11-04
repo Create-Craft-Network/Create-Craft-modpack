@@ -1,4 +1,21 @@
 
+name: Notify Discord about changelog
+
+'on':
+  push:
+    branches:
+      - dev
+    paths:
+      - CHANGELOG.md
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
       - name: Send changelog to Discord
         env:
           WEBHOOK: ${{ secrets.DISCORD_WEBHOOK_URL }}
