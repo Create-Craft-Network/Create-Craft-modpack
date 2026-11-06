@@ -5,7 +5,7 @@
 ## ✨ Added
 
 ## 🐛 Fixed
-
+- Pack updater
 ## ⚙️ Changed
 
 ## 🗑️ Removed
