@@ -5,11 +5,11 @@
 ## ✨ Added
 
 ## 🐛 Fixed
-- Pack updater
+
 ## ⚙️ Changed
 
 ## 🗑️ Removed
-
+Test
 ---
 
 **📦 Thank you for playing Create Craft!**

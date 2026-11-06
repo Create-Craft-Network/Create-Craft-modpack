@@ -17,12 +17,15 @@ jobs:
 
       - name: Send changelog to Discord
         env:
-          WEBHOOK: ${{ secrets.DISCORD_WEBHOOK_URL_UPDATES }}
+          WEBHOOK: ${{ secrets.DISCORD_WEBHOOK_URL_UPDATES_DEV }}
         run: |
           python3 - <<'PY'
           import json
           import re
           from datetime import datetime, timezone
+
+          # Discord role to ping
+          ROLE_ID = "726107880184610927"
 
           with open("CHANGELOG.md", encoding="utf-8") as f:
               changelog = f.read()
@@ -99,7 +102,7 @@ jobs:
           if message_text:
               embed["description"] = message_text
 
-          # Respect Discord's 6000-character embed limit (reserve room for the footer field)
+          # Respect Discord's 6000-character embed limit
           remaining = (
               6000
               - len(embed["title"])
@@ -128,18 +131,25 @@ jobs:
 
               remaining -= len(name) + len(value)
 
-          # Closing message ("Thank you for playing...") as the last field
+          # Closing message as the last field
           if footer_text:
               embed["fields"].append({
-                  "name": "\u200b",  # invisible title (Discord requires a non-empty name)
+                  "name": "\u200b",
                   "value": footer_text,
                   "inline": False
               })
 
           # Prepare webhook payload
           payload = {
+              # This appears ABOVE the embed
+              "content": f"<@&{ROLE_ID}>",
+
               "embeds": [embed],
-              "allowed_mentions": {"parse": []}
+
+              # Explicitly allow this role mention
+              "allowed_mentions": {
+                  "roles": [ROLE_ID]
+              }
           }
 
           with open("discord_payload.json", "w", encoding="utf-8") as f:

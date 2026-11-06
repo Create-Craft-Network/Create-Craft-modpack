@@ -2446,6 +2446,11 @@ hash = "5cfadf48dc2de2eed72170c3e5744adbd6d9c048a9d6aeb9b0ace028a2c14a3d"
 metafile = true
 
 [[files]]
+file = "mods/create-tick-control.pw.toml"
+hash = "872733c7a1b1aa49c9127006758e6023a0e0df4d0e97de2b617e4f5c85640bbd"
+metafile = true
+
+[[files]]
 file = "mods/create-tracks.pw.toml"
 hash = "6652073f815bed51608dc9d6a9e769ec783a131526054b35e8de6f47c8745fa2"
 metafile = true
