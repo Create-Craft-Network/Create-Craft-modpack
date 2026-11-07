@@ -5,7 +5,7 @@
 ## ✨ Added
 - Create tick controll
 ## 🐛 Fixed
-- voting
+
 ## ⚙️ Changed
 - Webhook looks
 ## 🗑️ Removed

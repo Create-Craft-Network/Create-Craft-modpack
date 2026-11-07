@@ -1,12 +1,8 @@
 hash-format = "sha256"
 
 [[files]]
-file = ".github/workflows/discord_send_changelog.yml"
-hash = "5ceaa74b96f8c3f91cd4f77c55c690bf274976df0451e728a803ddc69860c7d3"
-
-[[files]]
 file = "CHANGELOG.md"
-hash = "eebe9fd691eeff4e9695120dd4a4c5ea0814c74291378b0eeb7c15dae3af4612"
+hash = "6a3b798b183a1e7ea4a96fb819b02503c9b79b8ce8e2c9471d4fdea523dfccec"
 
 [[files]]
 file = "config/CSC/CSC_Warn.log"
@@ -2397,7 +2393,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-nowheel.pw.toml"
-hash = "b7603a689136ca1d2ed908a0c98e0d23a2f14ade59cafac20b2edaf35f71e8fb"
+hash = "7e69e0852197bc63f029279da41fdb06837c5538bb7373445c180e1bd07d58bd"
 metafile = true
 
 [[files]]
