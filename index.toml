@@ -2,11 +2,11 @@ hash-format = "sha256"
 
 [[files]]
 file = ".github/workflows/discord_send_changelog.yml"
-hash = "cc4e644e00a2c828d79e4611608e9881cce826d3d7dd3b7fea223c6c98bd8f9e"
+hash = "5ceaa74b96f8c3f91cd4f77c55c690bf274976df0451e728a803ddc69860c7d3"
 
 [[files]]
 file = "CHANGELOG.md"
-hash = "04e2110318b7078ee61260e8345a4cef3f223e43ab2bb2c595979941da663d5f"
+hash = "eebe9fd691eeff4e9695120dd4a4c5ea0814c74291378b0eeb7c15dae3af4612"
 
 [[files]]
 file = "config/CSC/CSC_Warn.log"
@@ -2443,6 +2443,11 @@ metafile = true
 [[files]]
 file = "mods/create-security-program.pw.toml"
 hash = "5cfadf48dc2de2eed72170c3e5744adbd6d9c048a9d6aeb9b0ace028a2c14a3d"
+metafile = true
+
+[[files]]
+file = "mods/create-tick-control.pw.toml"
+hash = "872733c7a1b1aa49c9127006758e6023a0e0df4d0e97de2b617e4f5c85640bbd"
 metafile = true
 
 [[files]]
