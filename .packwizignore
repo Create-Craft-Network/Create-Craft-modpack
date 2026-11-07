@@ -3,5 +3,6 @@
 /.packwizignore
 /.git/*
 /README.md
-/Changelog.txt
+/Changelog.md
 /icon.png
+/.github/*
