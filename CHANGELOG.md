@@ -3,11 +3,11 @@
 ## Write your message below. <this line isn't shown>
 
 ## ✨ Added
-- Create tick controll
+
 ## 🐛 Fixed
 
 ## ⚙️ Changed
-- Webhook looks
+
 ## 🗑️ Removed
 
 ---
