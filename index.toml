@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "CHANGELOG.md"
-hash = "6a3b798b183a1e7ea4a96fb819b02503c9b79b8ce8e2c9471d4fdea523dfccec"
+hash = "7be76fe2bf54a04c85f4e8463c5d6309cf6de459361767a83b030dd2e72d12e5"
 
 [[files]]
 file = "config/CSC/CSC_Warn.log"

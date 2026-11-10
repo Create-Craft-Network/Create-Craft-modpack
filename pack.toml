@@ -1,13 +1,13 @@
-name = "Create Craft"
-author = "Piotrusek"
-version = "6.6.0"
+name = "CCS 7"
+author = "Piotrusek69"
+version = "0.1"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "539c5f00ba4b7e70130b71921e0a3c18801339af114e65e3f31335cf0de8738b"
+hash = "adfc56aa618807894d02ca56875a31db04c6ba0f4aa073952a7cbdc49afd94e8"
 
 [versions]
 minecraft = "1.21.1"
-neoforge = "21.1.249"
+neoforge = "21.1.265"
