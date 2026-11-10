@@ -65,6 +65,11 @@ hash = "4b0ca63279620ec9ba4c63820a9d4f9ceea9b717227137ea19e5c420c820f858"
 metafile = true
 
 [[files]]
+file = "mods/deployer.pw.toml"
+hash = "b5f93c7de7f0b296533f51c53536c5258a8896c4e30f0fc1bdc3c51fa3b60cb5"
+metafile = true
+
+[[files]]
 file = "mods/entityculling-neoforge-1.11.3-mc1.21.1.jar"
 hash = "fa73ac70a3766568203b730a1573b4b54d88fb48dff4a33d8c4a80be9b8d17d5"
 
@@ -81,6 +86,11 @@ metafile = true
 [[files]]
 file = "mods/nukateams-gun-lib.pw.toml"
 hash = "8b4af86dc4c1846469326cc3fe73350a98a119650be241e499c6bd575c2e2482"
+metafile = true
+
+[[files]]
+file = "mods/numismatics.pw.toml"
+hash = "8938803461885a35dfad98d00ba94ea4d56926b263e623a53b170a1997e9bb6d"
 metafile = true
 
 [[files]]
