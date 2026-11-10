@@ -79,8 +79,23 @@ hash = "4cf7eb494f48576e28895ee5f362878f95c6bad65372666106140fdae82d0c4c"
 metafile = true
 
 [[files]]
+file = "mods/jade.pw.toml"
+hash = "4b0a995f7cfa19951ba585aa320a1f4ef1a755a38b608adcff2f9ddd156b195b"
+metafile = true
+
+[[files]]
+file = "mods/jei.pw.toml"
+hash = "4a5ea596148af390e53eaa5225a5569f15cda6ace0c51edf9c6b175cf6030322"
+metafile = true
+
+[[files]]
 file = "mods/let-it-walk.pw.toml"
 hash = "0bf08f8e608e27fcb8c7f198618e08e19dfa01602a892e8110ed04efeea23463"
+metafile = true
+
+[[files]]
+file = "mods/mezzconfig.pw.toml"
+hash = "5d445e2ad3f047becc67fec1e8f3bf6fe22ade3a443ec301590d54d0f3b91f3a"
 metafile = true
 
 [[files]]
