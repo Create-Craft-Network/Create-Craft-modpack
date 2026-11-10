@@ -1,10 +1,6 @@
 hash-format = "sha256"
 
 [[files]]
-file = "CHANGELOG.md"
-hash = "cb0dc0cb0a7cf946fb565b3d476250cb3acee97d479068baaaaed557062c78f3"
-
-[[files]]
 file = "config/packupdater.properties"
 hash = "7868b25ace4b53f3b78d2d5d07233c398f64557c2e420197b3a215a6ec22ea1e"
 
@@ -21,6 +17,11 @@ metafile = true
 [[files]]
 file = "mods/create-cosmonautics.pw.toml"
 hash = "6f59aad6d7ec4baa81345583b5e3c82e99129e52a64905421e1ea2cd835d9538"
+metafile = true
+
+[[files]]
+file = "mods/create-deco.pw.toml"
+hash = "900880f684238d2489dc6859c354abc7b145c617dbdac42e1873604632b9c831"
 metafile = true
 
 [[files]]
