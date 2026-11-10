@@ -134,6 +134,11 @@ hash = "f2c81cf494b7b6c1063563d7377224cf64b29e0b86bcf87bcf4da8eb79b9c800"
 metafile = true
 
 [[files]]
+file = "mods/searchables.pw.toml"
+hash = "6c0fac550bb053ee2728144a28819835823dcc6d04ad7897750431fe55100e53"
+metafile = true
+
+[[files]]
 file = "mods/steam-n-rails-neoforge.pw.toml"
 hash = "a2681409a01e496281b21d383cb28043efc4425f7110d21dfd8b6362e258a817"
 metafile = true
