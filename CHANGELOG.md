@@ -8,13 +8,15 @@
 - player animator
 - gecko lib
 - cgs
-
+- create octoarms
+- create let it walk
 ## 🐛 Fixed
 
 ## ⚙️ Changed
 
 ## 🗑️ Removed
 - Everything that isn't here
+
 ---
 
 **📦 Thank you for playing Create Craft!**

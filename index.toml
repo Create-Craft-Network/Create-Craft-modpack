@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "CHANGELOG.md"
-hash = "bef6aa07b08f07490b126e5df762a89f72dd34d380ce9a5c4ecde3837ff89eb9"
+hash = "cb0dc0cb0a7cf946fb565b3d476250cb3acee97d479068baaaaed557062c78f3"
 
 [[files]]
 file = "config/packupdater.properties"
