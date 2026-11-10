@@ -65,8 +65,23 @@ file = "kubejs/startup_scripts/main.js"
 hash = "5c4659e7bb368960801ccfce24ac3493fa14aae88a7e17b2a9cdfe1931985ffe"
 
 [[files]]
+file = "mods/create-aeronautics.pw.toml"
+hash = "efc9a3f8d4d0098687667f5ce7be29262202bcba23b0cec29811dcac1b0799fc"
+metafile = true
+
+[[files]]
+file = "mods/create-cosmonautics.pw.toml"
+hash = "6f59aad6d7ec4baa81345583b5e3c82e99129e52a64905421e1ea2cd835d9538"
+metafile = true
+
+[[files]]
 file = "mods/create-nowheel.pw.toml"
 hash = "7e69e0852197bc63f029279da41fdb06837c5538bb7373445c180e1bd07d58bd"
+metafile = true
+
+[[files]]
+file = "mods/create.pw.toml"
+hash = "4b0ca63279620ec9ba4c63820a9d4f9ceea9b717227137ea19e5c420c820f858"
 metafile = true
 
 [[files]]
@@ -76,6 +91,21 @@ hash = "fa73ac70a3766568203b730a1573b4b54d88fb48dff4a33d8c4a80be9b8d17d5"
 [[files]]
 file = "mods/packupdater.pw.toml"
 hash = "d0e200cf01ae162cab4edeffcbf43bf357080d7a87910230081dcf87a92a7392"
+metafile = true
+
+[[files]]
+file = "mods/refined-schematics.pw.toml"
+hash = "fd0534223a1f8242e7f6b3545775cba6d321708d3d89a466de5537131f5840aa"
+metafile = true
+
+[[files]]
+file = "mods/refined-storage.pw.toml"
+hash = "2c257ee5f2c8a3454e423610b61d113cf736c86b7b1f5079dc8e119346a0d7a0"
+metafile = true
+
+[[files]]
+file = "mods/sable.pw.toml"
+hash = "f2c81cf494b7b6c1063563d7377224cf64b29e0b86bcf87bcf4da8eb79b9c800"
 metafile = true
 
 [[files]]

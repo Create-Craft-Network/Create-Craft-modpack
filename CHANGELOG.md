@@ -1,9 +1,9 @@
 
-# 🚀 Create Craft - Version 6.6.3
+# 🚀 Create Craft - Version 7.0.1
 ## Write your message below. <this line isn't shown>
 
 ## ✨ Added
-- Create tick controll
+
 ## 🐛 Fixed
 
 ## ⚙️ Changed
