@@ -2,67 +2,16 @@ hash-format = "sha256"
 
 [[files]]
 file = "CHANGELOG.md"
-hash = "7be76fe2bf54a04c85f4e8463c5d6309cf6de459361767a83b030dd2e72d12e5"
+hash = "77a92c13f412da3e5a22708dbd9ee083e9aa970406ab104381256734fe8ad314"
 
 [[files]]
 file = "config/packupdater.properties"
 hash = "7868b25ace4b53f3b78d2d5d07233c398f64557c2e420197b3a215a6ec22ea1e"
 
 [[files]]
-file = "kubejs/README.txt"
-hash = "989f3737ae4621b8ff6730bce4cbeeee756921e7e510e0c281c8a350501d98af"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/block/example_block.png"
-hash = "783d78bd1ee61d3b32273670dff9d82c34cd74c5ae899a10f104f473828d5bbc"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/example_item.png"
-hash = "45a5f56eba6066ad05c70988a32b72c50cfeb6e35857739bd582007011ea002b"
-
-[[files]]
-file = "kubejs/client_scripts/main.js"
-hash = "3df46f0add819bf2602642215b5c62f0581ffdaaf97e77c80a8c4d966e05adcf"
-
-[[files]]
-file = "kubejs/config/client.json"
-hash = "0aeb4cb329b896e33a0777a1683b0b813a6f2f0adc5bc2cf3e6d10e18e442fef"
-
-[[files]]
-file = "kubejs/config/common.json"
-hash = "e00a67922942660d77c213379b5128a46c5abc894178b0be04006d325ff5f6b3"
-
-[[files]]
-file = "kubejs/config/web_server.json"
-hash = "be3ad32ccb41f7863ea20ddddb4cc90a84a8c90eb6b86e1ed6598ef1eae39829"
-
-[[files]]
-file = "kubejs/server_scripts/COEveins.js"
-hash = "1730862f1674981a817a6df7ad819520727251307c3fa67fc752fbc5198371f1"
-
-[[files]]
-file = "kubejs/server_scripts/Recipe_remove.js"
-hash = "201e9187de2080a189680bd0d073e1279f8d5ca3c56fc040add201735b652b3b"
-
-[[files]]
-file = "kubejs/server_scripts/Steel_armor_blocks_recipes.js"
-hash = "70a5feb03bc3ac8c733fa89997c857429dbb9fb846bf1a5195d833dbfebcd2b4"
-
-[[files]]
-file = "kubejs/server_scripts/cbc_at-fixes.js"
-hash = "c78575fcd46fd321c882752eb9dad3459162364af6ae2bec8cc6ab707b9e853a"
-
-[[files]]
-file = "kubejs/server_scripts/main.js"
-hash = "dae099ae3be7f033c0c190ee8c3b023b42f6b235d9d0591be5926e8435dbd67f"
-
-[[files]]
-file = "kubejs/server_scripts/recipes.js"
-hash = "e35f88e9fa628b4ce01b30fa4ba6491a62b1a1c7a7ede1a0b9749cfb079d3a4c"
-
-[[files]]
-file = "kubejs/startup_scripts/main.js"
-hash = "5c4659e7bb368960801ccfce24ac3493fa14aae88a7e17b2a9cdfe1931985ffe"
+file = "mods/cgs.pw.toml"
+hash = "1e35822d7c167184d78651887d9823feca7a128688daedfdb93f0a33a3e2c1cf"
+metafile = true
 
 [[files]]
 file = "mods/create-aeronautics.pw.toml"
@@ -72,6 +21,11 @@ metafile = true
 [[files]]
 file = "mods/create-cosmonautics.pw.toml"
 hash = "6f59aad6d7ec4baa81345583b5e3c82e99129e52a64905421e1ea2cd835d9538"
+metafile = true
+
+[[files]]
+file = "mods/create-enhanced-schematicannon.pw.toml"
+hash = "4c02e718923b1355cfbc5f34004ed0a4cd7dfba88e9cc1cb56401d8a615fbf50"
 metafile = true
 
 [[files]]
@@ -89,8 +43,23 @@ file = "mods/entityculling-neoforge-1.11.3-mc1.21.1.jar"
 hash = "fa73ac70a3766568203b730a1573b4b54d88fb48dff4a33d8c4a80be9b8d17d5"
 
 [[files]]
+file = "mods/geckolib.pw.toml"
+hash = "4cf7eb494f48576e28895ee5f362878f95c6bad65372666106140fdae82d0c4c"
+metafile = true
+
+[[files]]
+file = "mods/nukateams-gun-lib.pw.toml"
+hash = "8b4af86dc4c1846469326cc3fe73350a98a119650be241e499c6bd575c2e2482"
+metafile = true
+
+[[files]]
 file = "mods/packupdater.pw.toml"
 hash = "d0e200cf01ae162cab4edeffcbf43bf357080d7a87910230081dcf87a92a7392"
+metafile = true
+
+[[files]]
+file = "mods/playeranimator.pw.toml"
+hash = "5b30dafc9e96471978376ee010cec0ddf592377ac94192c9370cb37973e1e95f"
 metafile = true
 
 [[files]]
