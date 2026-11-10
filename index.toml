@@ -55,11 +55,6 @@ hash = "9e316742ce34c3ecd099558f079ef791bf70a3719d8f6cd63dc05b83ef363ae3"
 metafile = true
 
 [[files]]
-file = "mods/create-nowheel.pw.toml"
-hash = "7e69e0852197bc63f029279da41fdb06837c5538bb7373445c180e1bd07d58bd"
-metafile = true
-
-[[files]]
 file = "mods/create-octo-arms.pw.toml"
 hash = "0d8043e03c53519e660927e2536993f5857e38cefbdcb1b0355e5bde23d8ccc2"
 metafile = true
