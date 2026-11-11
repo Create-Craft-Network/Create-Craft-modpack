@@ -15,5 +15,5 @@ version = "3NKOvEei"
 [option]
 optional = true
 default = true
-packupdater-allow-restricted = true
+packupdater-allow-restricted = false
 description = "Client side opitmization mod"

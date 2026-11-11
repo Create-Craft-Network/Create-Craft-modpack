@@ -11,3 +11,9 @@ mode = "metadata:curseforge"
 [update.curseforge]
 file-id = 5831692
 project-id = 858542
+
+[option]
+optional = true
+default = true
+packupdater-allow-restricted = true
+description = "Allows you to search trough keybinds"
