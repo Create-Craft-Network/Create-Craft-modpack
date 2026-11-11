@@ -41,7 +41,7 @@ metafile = true
 
 [[files]]
 file = "mods/better-library.pw.toml"
-hash = "cc8bf5bff76adf40bb3ee07c5bbb4aaa51310a106484482d09bd3a19b19d1319"
+hash = "213568b614f351221804470e1d3a9f0be6cd4e4c1bbbbc865d9730e36a22efa3"
 metafile = true
 
 [[files]]
