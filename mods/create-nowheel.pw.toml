@@ -11,3 +11,9 @@ hash = "87e71aa5c7db450c4f42242922cf192537be99ff041ae8c959c219938ddebc0645585869
 [update.modrinth]
 mod-id = "c47YxuuI"
 version = "3NKOvEei"
+
+[option]
+optional = true
+default = true
+packupdater-allow-restricted = true
+description = "Client side opitmization mod"
