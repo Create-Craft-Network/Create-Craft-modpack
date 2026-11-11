@@ -40,6 +40,11 @@ hash = "84fd12a30b0fecc1df5c03b6ec1bcbd6263211e65e17f24075a54773af6bfaff"
 metafile = true
 
 [[files]]
+file = "mods/better-library.pw.toml"
+hash = "cc8bf5bff76adf40bb3ee07c5bbb4aaa51310a106484482d09bd3a19b19d1319"
+metafile = true
+
+[[files]]
 file = "mods/cbc-ballistics-fix-sable.pw.toml"
 hash = "0d6c50052110a3e6abaa1343c7a0d2a858ec47bb0b88a4f3aec61cfae2501a50"
 metafile = true
