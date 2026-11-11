@@ -2642,7 +2642,7 @@ metafile = true
 
 [[files]]
 file = "mods/packupdater.pw.toml"
-hash = "2584541cc130f1f8bac5a6cba45c516e8d53430a0673ba89362f12550333eaa9"
+hash = "e5a149da7ed889dadd7e484346755e85f5183c3980223d0b2e3744474ee20909"
 metafile = true
 
 [[files]]
