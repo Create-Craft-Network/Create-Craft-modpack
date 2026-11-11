@@ -1,13 +1,13 @@
 name = "Veil Lib"
-filename = "veil-neoforge-1.21.1-4.4.1.jar"
+filename = "veil-neoforge-1.21.1-4.5.2.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "0c992c129680494fc5a194e07133fc3d7146780a"
+hash = "b9994fd16bac1f78633e17b69ea04b76c0f2654f"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 8544546
+file-id = 9119940
 project-id = 1517006

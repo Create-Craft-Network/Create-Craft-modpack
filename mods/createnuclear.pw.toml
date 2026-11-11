@@ -1,13 +1,13 @@
 name = "Create Nuclear"
-filename = "createnuclear-1.3.2-beta.3-neoforge.jar"
+filename = "createnuclear-2.0.1-neoforge.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "c4349006fd07e614b0de3c5982d7f0d0a818c98c"
+hash = "90977ec04d39c5d6de0d715218ef55e3401c4ba4"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 7329038
+file-id = 9492137
 project-id = 989797
