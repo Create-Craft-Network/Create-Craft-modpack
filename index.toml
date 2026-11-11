@@ -2423,11 +2423,6 @@ hash = "5cfadf48dc2de2eed72170c3e5744adbd6d9c048a9d6aeb9b0ace028a2c14a3d"
 metafile = true
 
 [[files]]
-file = "mods/create-tick-control.pw.toml"
-hash = "43eb78228232259eef0523d225ddeb830fc161ce87131b7ea24145b378150d00"
-metafile = true
-
-[[files]]
 file = "mods/create-tracks.pw.toml"
 hash = "6652073f815bed51608dc9d6a9e769ec783a131526054b35e8de6f47c8745fa2"
 metafile = true
@@ -2465,6 +2460,10 @@ metafile = true
 [[files]]
 file = "mods/createpropulsion-nightly-1.1.5-6217f585.jar"
 hash = "820861e8c0ae8bd56fbd1aa2fab0e85c3225e02e4a4871ca738802d6f98ff46e"
+
+[[files]]
+file = "mods/createtickcontroller-1.21.1-1.4.41.jar"
+hash = "26659b20287d1351821a39af7ae418697c231194d68be2c55a22e938e1cfcee4"
 
 [[files]]
 file = "mods/creativecore.pw.toml"
