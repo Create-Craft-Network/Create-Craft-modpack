@@ -285,6 +285,11 @@ hash = "5cfadf48dc2de2eed72170c3e5744adbd6d9c048a9d6aeb9b0ace028a2c14a3d"
 metafile = true
 
 [[files]]
+file = "mods/create-tfmg.pw.toml"
+hash = "dfbb2a077b144492f48af0255906b146d56011ccb6c6f6e343bab703e8cc0f79"
+metafile = true
+
+[[files]]
 file = "mods/create-tracks.pw.toml"
 hash = "6652073f815bed51608dc9d6a9e769ec783a131526054b35e8de6f47c8745fa2"
 metafile = true
