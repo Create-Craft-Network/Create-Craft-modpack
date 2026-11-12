@@ -275,11 +275,6 @@ hash = "f4a1d1004e77a359670868609cea8db3b3558b1e73a3bb2e3c66a3381fd36a3a"
 metafile = true
 
 [[files]]
-file = "mods/create-linear-bearing.pw.toml"
-hash = "386bb916f6ad29a4ccae107ae211ae8af79d589bd9b8c4d3876d997b0f077220"
-metafile = true
-
-[[files]]
 file = "mods/create-marketplace.pw.toml"
 hash = "6f0d92f8ee27a14c5676f693ecbb8f8b5b8126146f9954f38c35d90708522eac"
 metafile = true
@@ -512,6 +507,10 @@ metafile = true
 file = "mods/lexiconfig.pw.toml"
 hash = "85c339a88003114e9fc81a308b95b6065981d7c1fb38d74222e011283b943254"
 metafile = true
+
+[[files]]
+file = "mods/linearbearing-1.2.6.jar"
+hash = "0530c06045c17809a753869250ad1e426c56a531f5f243b771254bd4ad84e92f"
 
 [[files]]
 file = "mods/lithium.pw.toml"
