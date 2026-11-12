@@ -260,8 +260,18 @@ hash = "4c02e718923b1355cfbc5f34004ed0a4cd7dfba88e9cc1cb56401d8a615fbf50"
 metafile = true
 
 [[files]]
+file = "mods/create-extra-gauges.pw.toml"
+hash = "80303b4d6acd243e1796b5debec43f53ee8b84b2bc84c4afe2af678680fd9cfe"
+metafile = true
+
+[[files]]
 file = "mods/create-integrated-farming.pw.toml"
 hash = "6cce6dbf6a529f03ada5fd817bce4797f20be4bb7c988b8f9eb75379fbf6443c"
+metafile = true
+
+[[files]]
+file = "mods/create-lazytick.pw.toml"
+hash = "f4a1d1004e77a359670868609cea8db3b3558b1e73a3bb2e3c66a3381fd36a3a"
 metafile = true
 
 [[files]]
