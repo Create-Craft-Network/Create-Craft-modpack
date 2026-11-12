@@ -28,7 +28,7 @@ Whether you like tidy factory lines, ambitious train networks, or giant moving m
 | | |
 |---|---|
 | 🌐 **Website** | [createcraft.store](https://createcraft.store) |
-| 💬 **Discord** | [Join our Discord](https://discord.gg/YOUR-INVITE-CODE) |
+| 💬 **Discord** | [Join our Discord](https://discord.gg/NeKGEtVCxP) |
 
 ## Need help?
 
