@@ -1,12 +1,12 @@
 name = "Create Craft"
 author = "Piotrusek"
-version = "6.6.0"
+version = "6.6.5"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "893eb4d0ce8fed62bdecda07a58ef8e799f6cb2c3533e5c446f58fe936d08149"
+hash = "79ee85c081b32def5d41f2bb76759d42b75967ff771be117945e17f44946c513"
 
 [versions]
 minecraft = "1.21.1"

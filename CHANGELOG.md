@@ -1,13 +1,13 @@
 
-# 🚀 Create Craft - Version 6.6.4
+# 🚀 Create Craft - Version 6.6.5
 ## Write your message below. <this line isn't shown>
-Small update with no effect on client
+
 ## ✨ Added
 
 ## 🐛 Fixed
-- Some pack updater references
-## ⚙️ Changed
 
+## ⚙️ Changed
+- Read me on github
 ## 🗑️ Removed
 
 ---
