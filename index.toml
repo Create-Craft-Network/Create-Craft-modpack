@@ -2408,6 +2408,11 @@ hash = "e58897137e9917ff76566807eb9ac93a8639635d4f9301d6a84a7bab4a63fbfc"
 metafile = true
 
 [[files]]
+file = "mods/create-propulsion-simulated.pw.toml"
+hash = "df11e99922d21336ecfbb0c8ffb6ed942c2f73e32658b39afd1c4edf6b5d0ab3"
+metafile = true
+
+[[files]]
 file = "mods/create-radars.pw.toml"
 hash = "035f86b5c4c27664e1bb17d03b14cf19c5a0f540d9f0bfd2645075d6339b7e8b"
 metafile = true
