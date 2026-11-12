@@ -275,6 +275,11 @@ hash = "f4a1d1004e77a359670868609cea8db3b3558b1e73a3bb2e3c66a3381fd36a3a"
 metafile = true
 
 [[files]]
+file = "mods/create-linear-bearing.pw.toml"
+hash = "386bb916f6ad29a4ccae107ae211ae8af79d589bd9b8c4d3876d997b0f077220"
+metafile = true
+
+[[files]]
 file = "mods/create-marketplace.pw.toml"
 hash = "6f0d92f8ee27a14c5676f693ecbb8f8b5b8126146f9954f38c35d90708522eac"
 metafile = true
