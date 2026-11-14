@@ -251,7 +251,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-nowheel.pw.toml"
-hash = "2649c0ccd0d70ad743c72ff44b596d05f3c9c4ef6c02cfab212b82b261164a8a"
+hash = "85b3f0a0c9ce4a07dc7363cdb2926cd69b6f6e0dcf1bf2052fe827c26eced9f8"
 metafile = true
 
 [[files]]
@@ -287,6 +287,11 @@ metafile = true
 [[files]]
 file = "mods/create-propulsion-simulated.pw.toml"
 hash = "df11e99922d21336ecfbb0c8ffb6ed942c2f73e32658b39afd1c4edf6b5d0ab3"
+metafile = true
+
+[[files]]
+file = "mods/create-radars.pw.toml"
+hash = "184474f86bc32d2a7e9585760ff38354f60788b8bafe94ce9dbb40850b9c41ba"
 metafile = true
 
 [[files]]
@@ -375,7 +380,7 @@ metafile = true
 
 [[files]]
 file = "mods/entityculling.pw.toml"
-hash = "d518db51c2502b5b04d6ca4add6a2b3e862a0af15e7a65f0ab83180778adb604"
+hash = "1c554c7b15581f507524c3050ffa06b8c46456823c9df1e6395f6277dd84fdb5"
 metafile = true
 
 [[files]]
