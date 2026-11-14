@@ -16,4 +16,4 @@ version = "3NKOvEei"
 optional = true
 default = true
 packupdater-allow-restricted = false
-description = "Client side opitmization mod"
+description = "Client side opitmization mod. Requires entityculling!"
