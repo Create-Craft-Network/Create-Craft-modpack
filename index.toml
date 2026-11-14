@@ -732,6 +732,11 @@ hash = "72a76e8337198b32ba0941ce4b5d03dc29b4080ac7708e226c74b3fc9cd88d8b"
 metafile = true
 
 [[files]]
+file = "mods/veil-bonk.pw.toml"
+hash = "3ca3acc3ab48292b58eadc3b3cc046f6c58f50380ce55c64ec8f34116338d13f"
+metafile = true
+
+[[files]]
 file = "mods/veil-lib.pw.toml"
 hash = "40de00f6ea9aaf794eab1d5008d42926c5666f729f03afb16e7aba17aed54ddd"
 metafile = true
