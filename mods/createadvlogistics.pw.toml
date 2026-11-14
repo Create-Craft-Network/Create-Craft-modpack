@@ -1,0 +1,13 @@
+name = "Create: Advanced Logistics"
+filename = "createadvlogistics-0.4.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/T5viQjDe/versions/Ny70RpjG/createadvlogistics-0.4.2.jar"
+hash-format = "sha512"
+hash = "5abaf99350aec03bb46eacb3bf6274f24cb1de204b6933bc48adeaa2621ac38285f0f03912739f15c95475e921fe39913bb4709fe9b5b66decc0d965b5388f5c"
+
+[update]
+[update.modrinth]
+mod-id = "T5viQjDe"
+version = "Ny70RpjG"

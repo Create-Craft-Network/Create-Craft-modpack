@@ -1,0 +1,13 @@
+name = "CBC: Advanced technologies crash fix"
+filename = "cbcatfix-1.1.4.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "4492395032a84cdef554f6de94084b60ea3889c3"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9200297
+project-id = 1603954

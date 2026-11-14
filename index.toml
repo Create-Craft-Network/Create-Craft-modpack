@@ -30,8 +30,13 @@ hash = "3f866cfbaad92b14b25f4b132310c895d83e364bcd2aa2b0375796be42f99480"
 metafile = true
 
 [[files]]
+file = "mods/alternate-current.pw.toml"
+hash = "571293a6ddb6b5ea7b9c1f5454d0cfc584a5aa50397942bea4906d3b54e02e02"
+metafile = true
+
+[[files]]
 file = "mods/architectury-api.pw.toml"
-hash = "657a01a86bbf8617e4726c77df08f708e43a3db12db74b837eebd8eb1d93faae"
+hash = "9412ae80a3b8633c4b8507402610c4d8ad3e27809a27a9a76263d16fa7347b2e"
 metafile = true
 
 [[files]]
@@ -40,8 +45,18 @@ hash = "84fd12a30b0fecc1df5c03b6ec1bcbd6263211e65e17f24075a54773af6bfaff"
 metafile = true
 
 [[files]]
+file = "mods/better-advanced-tooltips.pw.toml"
+hash = "5f44e7055390f5cae8ae1b3df8a69bebb0573af9fd5b4000e1ade8a3fd65e3bd"
+metafile = true
+
+[[files]]
 file = "mods/better-library.pw.toml"
 hash = "213568b614f351221804470e1d3a9f0be6cd4e4c1bbbbc865d9730e36a22efa3"
+metafile = true
+
+[[files]]
+file = "mods/cbc-advanced-technologies-aeronautics-fix.pw.toml"
+hash = "790183d6cfb430f2966d132eb43643720493637abc8c6dea9546d2cce3c16315"
 metafile = true
 
 [[files]]
@@ -181,7 +196,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-deep-seas.pw.toml"
-hash = "d3c38c6b0b70e84f136e33d5f2070ce5bad299c3478a99fb840b2bd72901ec7f"
+hash = "2e66c6b8dfb44b6e011076265ffa7bbb334da429ab889af7e0e0e8558108b129"
 metafile = true
 
 [[files]]
@@ -240,8 +255,13 @@ hash = "2649c0ccd0d70ad743c72ff44b596d05f3c9c4ef6c02cfab212b82b261164a8a"
 metafile = true
 
 [[files]]
+file = "mods/create-numismatics-create-6-0-integration.pw.toml"
+hash = "37cedf9219acc2d5b20edfea3595d6a066ebbf0c70189f8c2821b561d3acfc12"
+metafile = true
+
+[[files]]
 file = "mods/create-octo-arms.pw.toml"
-hash = "0d8043e03c53519e660927e2536993f5857e38cefbdcb1b0355e5bde23d8ccc2"
+hash = "16ece98bba8b29d9123cec4a9c1b9684873d7a686992a153735830e032567bde"
 metafile = true
 
 [[files]]
@@ -271,7 +291,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-radars.pw.toml"
-hash = "71f197f9218155d25ccae96fde48fec0f94824c4bc44b43e16320096ba251803"
+hash = "59a977a5c4472d1c269874db6c51bd0f6d3832f42b03230caa09890364c2b4ff"
 metafile = true
 
 [[files]]
@@ -307,6 +327,11 @@ metafile = true
 [[files]]
 file = "mods/createaddition.pw.toml"
 hash = "8913bb244d45ff085d444bd9c0ea236ffb3414a608554766140a208ac973a5a6"
+metafile = true
+
+[[files]]
+file = "mods/createadvlogistics.pw.toml"
+hash = "bdd29c8a22832f076d1b055648b3ed0d3eaa9171eca2f8112a8020617f7b13f7"
 metafile = true
 
 [[files]]
@@ -355,7 +380,12 @@ metafile = true
 
 [[files]]
 file = "mods/entityculling.pw.toml"
-hash = "426238488c9ffd843f661f8bc74aa8e585fa6b4d342c43c4ba4cb8451298b725"
+hash = "d518db51c2502b5b04d6ca4add6a2b3e862a0af15e7a65f0ab83180778adb604"
+metafile = true
+
+[[files]]
+file = "mods/exposure.pw.toml"
+hash = "e7a5d6852befbfa5d45fb38046162142df8d4865fb8bcd5fa388e047ce206855"
 metafile = true
 
 [[files]]
@@ -375,7 +405,7 @@ metafile = true
 
 [[files]]
 file = "mods/ftb-chunks-forge.pw.toml"
-hash = "90d8290ba2c103b55eacba92ed0f08c77a3832795b99fb03e77f9dc3885c7fd9"
+hash = "fe87173e15a7e2a7543c553708cc3f49a346bcb686cec4977fce6c3efafe4521"
 metafile = true
 
 [[files]]
@@ -435,7 +465,7 @@ metafile = true
 
 [[files]]
 file = "mods/kotlin-for-forge.pw.toml"
-hash = "1506a3d749a45bc760b3ad57ef1fbb959f0c166b6d1d4955114fd66db7a4855d"
+hash = "712a69b3569a8055979de6eea262068535fe182dffb3833e53e5833e9cbf9766"
 metafile = true
 
 [[files]]
@@ -543,6 +573,16 @@ hash = "330eae6dd751b70d4761f5fb556bc476f693549f3eb42ff7f441e1cd5bfe3cfb"
 metafile = true
 
 [[files]]
+file = "mods/refined-schematics.pw.toml"
+hash = "fd0534223a1f8242e7f6b3545775cba6d321708d3d89a466de5537131f5840aa"
+metafile = true
+
+[[files]]
+file = "mods/refined-storage.pw.toml"
+hash = "aaf0d7287d0b48ed96307ffa1fd8bbe7a3d6bfc837be1e6ba42c09063b988e69"
+metafile = true
+
+[[files]]
 file = "mods/resourceful-config.pw.toml"
 hash = "89d21f5da7fea8b1197c6e8e5215d45f7400844560e0f7c179d3c6145bd36a95"
 metafile = true
@@ -555,6 +595,11 @@ metafile = true
 [[files]]
 file = "mods/ritchies-projectile-library.pw.toml"
 hash = "c62b51a8248d15e3cb63880ac123a92dd6a67973a1eafc4c4cb09f3f74481f78"
+metafile = true
+
+[[files]]
+file = "mods/rs-polymorph.pw.toml"
+hash = "39b981cf17a391708da15c895e582ffe5d0e2498ec07089e6a412699977fc07a"
 metafile = true
 
 [[files]]
@@ -629,7 +674,7 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "16d70fa9a31de70bcdb2eae8a622ef2db619ad4377181aee1b22d68bcee90fdb"
+hash = "5595180841498e564236e26c66a5d7d790a2fcd52da68707f0c8ac15fd03e3a2"
 metafile = true
 
 [[files]]
