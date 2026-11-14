@@ -55,8 +55,8 @@ hash = "213568b614f351221804470e1d3a9f0be6cd4e4c1bbbbc865d9730e36a22efa3"
 metafile = true
 
 [[files]]
-file = "mods/cbc-advanced-technologies-aeronautics-fix.pw.toml"
-hash = "790183d6cfb430f2966d132eb43643720493637abc8c6dea9546d2cce3c16315"
+file = "mods/cbc-advanced-technologies-crash-fix.pw.toml"
+hash = "fa219cc1e865ffb22fc424124fa4a2ec854274ded5fc3c4df9c4e2a78d61a59b"
 metafile = true
 
 [[files]]
@@ -287,11 +287,6 @@ metafile = true
 [[files]]
 file = "mods/create-propulsion-simulated.pw.toml"
 hash = "df11e99922d21336ecfbb0c8ffb6ed942c2f73e32658b39afd1c4edf6b5d0ab3"
-metafile = true
-
-[[files]]
-file = "mods/create-radars.pw.toml"
-hash = "59a977a5c4472d1c269874db6c51bd0f6d3832f42b03230caa09890364c2b4ff"
 metafile = true
 
 [[files]]

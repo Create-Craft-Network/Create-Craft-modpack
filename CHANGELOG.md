@@ -11,20 +11,18 @@ We decided it fits better into the theme of our server.
 
 ## ✨ Added
 - Applied energistics 2
-- Advanced logistics
 - Schematicanon - refined storage compat
 - [NTGL] nukateam's gun lib
-- player animator
-- gecko lib
-- cgs
-- create octoarms
-- create let it walk
-- cosmonautcis deep air
-- cbc advanced technologies
-- create factory controller
-- create advanced logitics
-- sable hose connectors
-- the factory must work
+- Player animator
+- Cgs
+- Create octoarms
+- Create let it walk
+- Cosmonautcis deep air
+- Cbc advanced technologies
+- Create factory controller
+- Create advanced logitics
+- Sable hose connectors
+- The factory must work
 
 ## 🐛 Fixed
 
@@ -32,10 +30,10 @@ We decided it fits better into the theme of our server.
 - Additionally all mods got updated to the latest versions!
 
 ## 🗑️ Removed
-- crate powerchip
-- create - warnautics
-- create powergrid
-- tacz
+- Crate powerchip
+- Create - warnautics
+- Create powergrid
+- TACZ
 
 
 

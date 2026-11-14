@@ -1,0 +1,13 @@
+name = "CBC: Advanced technologies crash fix"
+filename = "cbcatfix-1.1.4.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/ZRVMkNDQ/versions/LcgTsZDX/cbcatfix-1.1.4.jar"
+hash-format = "sha512"
+hash = "e28ce1fb504f32dd7d141e50712b108d586a7357505481195cf687743d33cb6dd0ccd183184be64b1f695e21daa3b649806d4067fda1f7291045ff42456445cd"
+
+[update]
+[update.modrinth]
+mod-id = "ZRVMkNDQ"
+version = "LcgTsZDX"
