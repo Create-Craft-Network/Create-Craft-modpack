@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "config/packupdater.properties"
-hash = "c9e10044806eeddaa1bfeba62d6ce08822d486d3517326d37cb54ffb72dad461"
+hash = "642027fc36c607a964a3d9516a12d4e54610811b93d613e023263fe5ef5b2661"
 
 [[files]]
 file = "kubejs/README.txt"
@@ -15,10 +15,6 @@ hash = "783d78bd1ee61d3b32273670dff9d82c34cd74c5ae899a10f104f473828d5bbc"
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/example_item.png"
 hash = "45a5f56eba6066ad05c70988a32b72c50cfeb6e35857739bd582007011ea002b"
-
-[[files]]
-file = "kubejs/client_scripts/main.js"
-hash = "3df46f0add819bf2602642215b5c62f0581ffdaaf97e77c80a8c4d966e05adcf"
 
 [[files]]
 file = "kubejs/config/client.json"
@@ -34,7 +30,7 @@ hash = "be3ad32ccb41f7863ea20ddddb4cc90a84a8c90eb6b86e1ed6598ef1eae39829"
 
 [[files]]
 file = "kubejs/server_scripts/COEveins.js"
-hash = "1730862f1674981a817a6df7ad819520727251307c3fa67fc752fbc5198371f1"
+hash = "b3ffb5abee5454246981117929e0617150561c10c5318ea9d18b9b14bf2ccd13"
 
 [[files]]
 file = "kubejs/server_scripts/Recipe_remove.js"
@@ -42,11 +38,11 @@ hash = "201e9187de2080a189680bd0d073e1279f8d5ca3c56fc040add201735b652b3b"
 
 [[files]]
 file = "kubejs/server_scripts/Steel_armor_blocks_recipes.js"
-hash = "70a5feb03bc3ac8c733fa89997c857429dbb9fb846bf1a5195d833dbfebcd2b4"
+hash = "9ff6302f4bae342e1f5f7f8bbc756b39c306bfb8c6c3f8c235632cc143a6a249"
 
 [[files]]
 file = "kubejs/server_scripts/cbc_at-fixes.js"
-hash = "c78575fcd46fd321c882752eb9dad3459162364af6ae2bec8cc6ab707b9e853a"
+hash = "3cade6b696471e770ed171e21c3c01aee3933e9196a1eeea004b3d06532233af"
 
 [[files]]
 file = "kubejs/server_scripts/main.js"
@@ -54,11 +50,7 @@ hash = "dae099ae3be7f033c0c190ee8c3b023b42f6b235d9d0591be5926e8435dbd67f"
 
 [[files]]
 file = "kubejs/server_scripts/recipes.js"
-hash = "e35f88e9fa628b4ce01b30fa4ba6491a62b1a1c7a7ede1a0b9749cfb079d3a4c"
-
-[[files]]
-file = "kubejs/startup_scripts/main.js"
-hash = "5c4659e7bb368960801ccfce24ac3493fa14aae88a7e17b2a9cdfe1931985ffe"
+hash = "e55d5d2d89902f3dffe607c8aeffc35031eded74275051f13fbe654d5b84385a"
 
 [[files]]
 file = "mods/advanced-netherite.pw.toml"
