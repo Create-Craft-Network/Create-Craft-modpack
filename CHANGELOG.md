@@ -1,13 +1,12 @@
 
-# 🚀 Create Craft - Version 6.6.5
-## Update message. <this line isn't shown>
+# 🚀 Create Craft - Version 6.6.6
+## Update message:
 
 ## ✨ Added
 
 ## 🐛 Fixed
-
-## 🐛 Fixed
 - Some pack updater references
+- Errors on start of the game
 ## ⚙️ Changed
 - Read me on github
 ## 🗑️ Removed
