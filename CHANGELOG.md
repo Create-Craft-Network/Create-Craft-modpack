@@ -10,7 +10,6 @@ Instead of tacz we introduce **Create Gunsmithing**!!!
 We decided it fits better into the theme of our server.
 
 ## ✨ Added
-- Applied energistics 2
 - Schematicanon - refined storage compat
 - [NTGL] nukateam's gun lib
 - Player animator
@@ -23,6 +22,7 @@ We decided it fits better into the theme of our server.
 - Create advanced logitics
 - Sable hose connectors
 - The factory must work
+- Veil bonk
 
 ## 🐛 Fixed
 
