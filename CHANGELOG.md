@@ -1,6 +1,6 @@
 
 # 🚀 Create Craft - Version 7.0.0
-## Write your message below. <this line isn't shown>
+## Update message:
 
 As you can see there is a lot comming in the new season. Before you complain about the removal of some mods please read this.
 - Why did we remove create powergrid?

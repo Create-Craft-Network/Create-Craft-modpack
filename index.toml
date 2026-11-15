@@ -558,11 +558,6 @@ hash = "2e2af1cc71b69b26ae87bcb78d75fb0186d690ee1b85d8d4586eec112aa51b66"
 metafile = true
 
 [[files]]
-file = "mods/polymorphic-energistics.pw.toml"
-hash = "330eae6dd751b70d4761f5fb556bc476f693549f3eb42ff7f441e1cd5bfe3cfb"
-metafile = true
-
-[[files]]
 file = "mods/refined-schematics.pw.toml"
 hash = "fd0534223a1f8242e7f6b3545775cba6d321708d3d89a466de5537131f5840aa"
 metafile = true
