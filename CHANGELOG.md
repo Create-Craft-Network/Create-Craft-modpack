@@ -34,9 +34,6 @@ We decided it fits better into the theme of our server.
 - Create - warnautics
 - Create powergrid
 - TACZ
-- Create warnautics
-
-
 
 ---
 

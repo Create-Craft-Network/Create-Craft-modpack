@@ -3,11 +3,11 @@ filename = "sable-photomancy-1.0.1.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "4f33a1ce8f4c241afe0963d7c96e2d612cc62ee1"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/hNGBYvQN/versions/hwxjOCxE/sable-photomancy-1.0.1.jar"
+hash-format = "sha512"
+hash = "3a02e10c10d96a8fde75a5e625207f5452991d48ec4b4762dff3ea870952fdb922b93ad3d0b84c66bdb7875bcf96f3c6f61076c595a13652ddf86fd9a6dc9730"
 
 [update]
-[update.curseforge]
-file-id = 8606655
-project-id = 1526951
+[update.modrinth]
+mod-id = "hNGBYvQN"
+version = "hwxjOCxE"

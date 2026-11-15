@@ -1,12 +1,12 @@
 name = "CCS 7"
-author = "Piotrusek69"
+author = "Awizo"
 version = "0.1.2"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "fb9beb74462e4b4d6ce5789d95aa4a8dc937cc5502fc73d2a0f606a97c9e1f13"
+hash = "91e28f57ae5312e1643baa1684b85f2c1653799d54af770c73dd6a56cda9b3fb"
 
 [versions]
 minecraft = "1.21.1"
