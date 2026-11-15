@@ -1,6 +1,6 @@
 name = "Create Blue Prints Anti Dupe"
 filename = "create_blueprint_antidupe-1.0.0.jar"
-side = "both"
+side = "server"
 
 [download]
 hash-format = "sha1"

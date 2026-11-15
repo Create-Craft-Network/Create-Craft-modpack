@@ -151,7 +151,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-blue-prints-anti-dupe.pw.toml"
-hash = "bf4bebda7c37e453222c42f4891f8b84020d7bcc9d5f91316e672e290718d9e4"
+hash = "6a45957867f67f284f917e1fbdb6b48245eb632b4fab363c9297c68513c49926"
 metafile = true
 
 [[files]]
@@ -281,7 +281,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-radars.pw.toml"
-hash = "184474f86bc32d2a7e9585760ff38354f60788b8bafe94ce9dbb40850b9c41ba"
+hash = "c2ed10468dc1533ed33ab807b364ae8100622322e09f9110e8b9b9ad5074c303"
 metafile = true
 
 [[files]]
@@ -479,8 +479,14 @@ hash = "db0fdc6b9fdea926727a9220890c12541557f733f2fda7c3cb1a62f1e1bf0c4f"
 metafile = true
 
 [[files]]
-file = "mods/linearbearing-1.2.6.jar"
-hash = "0530c06045c17809a753869250ad1e426c56a531f5f243b771254bd4ad84e92f"
+file = "mods/linear-bearing.pw.toml"
+hash = "e92248ff7e47d94175ee315550946858967e9f1076653468a1d10a6aa53a4d82"
+metafile = true
+
+[[files]]
+file = "mods/linear-bearings-fix.pw.toml"
+hash = "210e07b6cd9ef4bbd7bb6327f5c1903f2075a684240cc4f7a629d4afe73fa4e6"
+metafile = true
 
 [[files]]
 file = "mods/lithium.pw.toml"
