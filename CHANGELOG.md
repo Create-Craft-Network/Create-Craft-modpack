@@ -6,6 +6,8 @@
 
 ## 🐛 Fixed
 
+## 🐛 Fixed
+- Some pack updater references
 ## ⚙️ Changed
 - Read me on github
 ## 🗑️ Removed

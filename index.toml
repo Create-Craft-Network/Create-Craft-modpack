@@ -68,6 +68,11 @@ hash = "bc0c5be3e22b85160507f00b3fbedf0d76ac65c9c89d42f2267d21612cfca81c"
 metafile = true
 
 [[files]]
+file = "mods/aeronautics-dyeable-components.pw.toml"
+hash = "3f866cfbaad92b14b25f4b132310c895d83e364bcd2aa2b0375796be42f99480"
+metafile = true
+
+[[files]]
 file = "mods/alternate-current.pw.toml"
 hash = "cdaba4742011915307375cc063c4392bbfe9d79cd0ea4d3ed8cd34ef79ab7746"
 metafile = true
