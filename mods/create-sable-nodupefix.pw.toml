@@ -1,6 +1,6 @@
 name = "Create Sable NoDupeFix"
 filename = "nodupefix-2.0.0.jar"
-side = "both"
+side = "server"
 
 [download]
 hash-format = "sha1"

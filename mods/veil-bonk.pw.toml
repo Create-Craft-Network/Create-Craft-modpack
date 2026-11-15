@@ -1,6 +1,6 @@
 name = "Veil Bonk"
 filename = "veil_bonk-1.21.1-0.3.2-neoforge.jar"
-side = "both"
+side = "client"
 
 [download]
 hash-format = "sha1"

@@ -1,6 +1,6 @@
 name = "Shtreimel - Sable Utility"
 filename = "shtreimel-neoforge-1.21.1-0.7.0.jar"
-side = "both"
+side = "server"
 
 [download]
 hash-format = "sha1"

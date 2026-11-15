@@ -286,7 +286,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-sable-nodupefix.pw.toml"
-hash = "1eb828b83974182eaebc6f93d593717a0a1729be2ac33c34af945926ffa4237d"
+hash = "d8558722bd102427223d093b95648f6fcb02be140f624dcd17634c8916579a8a"
 metafile = true
 
 [[files]]
@@ -509,12 +509,12 @@ metafile = true
 
 [[files]]
 file = "mods/mouse-tweaks.pw.toml"
-hash = "2bdee19bd39b4bd411d7c858a7978ca9d2bdda41c1cf15920ea6be0014663f79"
+hash = "057044d2179d9e10b616ef8fa4cc870ad350842fc5c325ce0b3766160852cd13"
 metafile = true
 
 [[files]]
 file = "mods/noisiumforked.pw.toml"
-hash = "9c93eb7b597436c3f71fd4c19121633146776c50b7c9b3b06c7dc9441d722da9"
+hash = "33dde50a78c51c9c2f47b2755e1a7e8d19430112a2c3b53c399c3800dfc7903f"
 metafile = true
 
 [[files]]
@@ -619,7 +619,7 @@ metafile = true
 
 [[files]]
 file = "mods/shtreimel-sable-server-utility.pw.toml"
-hash = "7e22ebbb44c9ec91821304e1ad06ffefd7477f7163bd9dbb617004de6f6805d1"
+hash = "7fa79648916ed54ae023fd14eeb1094f71267d504fc4a86525fad2cc59ead149"
 metafile = true
 
 [[files]]
@@ -644,7 +644,7 @@ metafile = true
 
 [[files]]
 file = "mods/sodium.pw.toml"
-hash = "617ec6e9893d59905035a510fe336addd46a97b6fd28fad88b70713ebf8e69e3"
+hash = "3fc6fd4a464740bd6cfe89571517cfda837dbad69f0218ef1159b527b1be45d6"
 metafile = true
 
 [[files]]
@@ -674,7 +674,7 @@ metafile = true
 
 [[files]]
 file = "mods/structure-essentials-forge-fabric.pw.toml"
-hash = "7eef3e77e4800e7d58cf79919e67b7f4ed10db8ed66e54aca64340657639168e"
+hash = "797e3147d783984fbfcfcb93ba9d31673a1739cd95f11c6388288e51053f8ef3"
 metafile = true
 
 [[files]]
@@ -718,12 +718,12 @@ metafile = true
 
 [[files]]
 file = "mods/veil-bonk.pw.toml"
-hash = "3ca3acc3ab48292b58eadc3b3cc046f6c58f50380ce55c64ec8f34116338d13f"
+hash = "dd12229ad39782d0e68dba96dad3a593aad3d671f4281a05344848ddb4736b31"
 metafile = true
 
 [[files]]
 file = "mods/veil-lib.pw.toml"
-hash = "40de00f6ea9aaf794eab1d5008d42926c5666f729f03afb16e7aba17aed54ddd"
+hash = "fb79c71085cddafa6e4f23fe74f48a835e4fff6d76359cf13aabadc6323e3d50"
 metafile = true
 
 [[files]]
