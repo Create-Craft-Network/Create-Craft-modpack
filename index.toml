@@ -305,6 +305,11 @@ hash = "ace252b6b7f35f95dd486c4c38125be1ab4e5dd0edc30c7c665411f739c971f7"
 metafile = true
 
 [[files]]
+file = "mods/create-warnautics.pw.toml"
+hash = "134f02a1af52c0c1942956faddd80b1610b832d13b30da99773c5a2a1234a7f5"
+metafile = true
+
+[[files]]
 file = "mods/create-winery.pw.toml"
 hash = "cd6a52bd70e5abe5f018d664dbfa8a301b60635cd6744029d50fe15437f48f8c"
 metafile = true
@@ -516,6 +521,11 @@ metafile = true
 [[files]]
 file = "mods/mouse-tweaks.pw.toml"
 hash = "057044d2179d9e10b616ef8fa4cc870ad350842fc5c325ce0b3766160852cd13"
+metafile = true
+
+[[files]]
+file = "mods/neruina.pw.toml"
+hash = "2dec6835297e950b5df86d8a879e97e279b5698d14c599c5a2a192918312c5c8"
 metafile = true
 
 [[files]]
