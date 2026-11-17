@@ -31,9 +31,10 @@ We decided it fits better into the theme of our server.
 
 ## 🗑️ Removed
 - Crate powerchip
-- Create - warnautics
 - Create powergrid
 - TACZ
+- synaxis
+- sable photomacy
 
 ---
 
