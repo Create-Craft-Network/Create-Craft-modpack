@@ -265,6 +265,11 @@ hash = "16ece98bba8b29d9123cec4a9c1b9684873d7a686992a153735830e032567bde"
 metafile = true
 
 [[files]]
+file = "mods/create-offroad-narrow-roads.pw.toml"
+hash = "e28efde8137e92234359264d8ab9aa7edc8367bed3a943a55c8731ad8a7d74b1"
+metafile = true
+
+[[files]]
 file = "mods/create-ore-excavation-better-finder.pw.toml"
 hash = "568404021277ef4c325507ce2bcc03d1902d2494fb878888714ea2699f98562e"
 metafile = true
