@@ -16,6 +16,7 @@ We decided it fits better into the theme of our server.
 - Cgs
 - Create octoarms
 - Create let it walk
+- Let it walk CC
 - Cosmonautcis deep air
 - Cbc advanced technologies
 - Create factory controller
