@@ -1,0 +1,13 @@
+name = "Create: Dreams & Desires (fixed Bore Blocks)"
+filename = "createdndboreblockfix-1.1.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/U09Lw7Pu/versions/LMTsPpo0/createdndboreblockfix-1.1.0.jar"
+hash-format = "sha512"
+hash = "e05d52c62ea8ee3417803fbc9175acbb9cf1e76998893831e7e37a981d9b97d276094c2df57450dc7bac0ee8cafc609ffeeb5852dbe447727c0e87afd5d6307b"
+
+[update]
+[update.modrinth]
+mod-id = "U09Lw7Pu"
+version = "LMTsPpo0"
