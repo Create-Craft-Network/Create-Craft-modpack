@@ -60,6 +60,11 @@ hash = "2749bc768489be6b50c85122c1c1937637ac1ec2189236ad66a141b0cd5f485e"
 metafile = true
 
 [[files]]
+file = "mods/cc-let-it-walk.pw.toml"
+hash = "bf4f4a480ef65a97c1f29cc5583c7c617d9f978ac769d3377867c0422bf223dc"
+metafile = true
+
+[[files]]
 file = "mods/cc-sable.pw.toml"
 hash = "9b8211d6db388c8f289d7134f584ed817b24a3ab202857e0f631a5c168972095"
 metafile = true
