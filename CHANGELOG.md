@@ -6,6 +6,7 @@
 
 ## 🐛 Fixed
 ## ⚙️ Changed
+- Updated pack updater (new fency gui)
 ## 🗑️ Removed
 
 ---
