@@ -5,10 +5,9 @@
 ## ✨ Added
 
 ## 🐛 Fixed
-- Some pack updater references
-- Errors on start of the game
+
 ## ⚙️ Changed
-- Read me on github
+- updated tsa anticheat
 ## 🗑️ Removed
 
 ---
