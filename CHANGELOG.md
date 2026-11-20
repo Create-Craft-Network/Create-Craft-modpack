@@ -1,5 +1,5 @@
 
-# 🚀 Create Craft - Version 6.6.6
+# 🚀 Create Craft - Version 6.6.7
 ## Update message:
 
 ## ✨ Added
