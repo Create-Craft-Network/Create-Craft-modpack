@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "config/packupdater.properties"
-hash = "7868b25ace4b53f3b78d2d5d07233c398f64557c2e420197b3a215a6ec22ea1e"
+hash = "6c5fe99a9779377a1a8e742aa371781613507f85221dcf788b9e44a04625c1ee"
 
 [[files]]
 file = "mods/advanced-netherite.pw.toml"
@@ -739,8 +739,8 @@ hash = "2cb3668df9cb47a6a8a5d7a0cc0806d494cbc5502358e78c79ae6253e8de4911"
 metafile = true
 
 [[files]]
-file = "mods/tsa_anticheat-1.6.2.jar"
-hash = "0990cca21ba7bab932e80ffce1a2e92d78245ee6007f75e463aa21ceeea65945"
+file = "mods/tsa_anticheat-1.6.3.jar"
+hash = "b484db8a0fb317563fb32c97274e9ab1ab38f66b7cf123fc9cdc503de2bcf4ac"
 
 [[files]]
 file = "mods/underground-bunkers.pw.toml"
