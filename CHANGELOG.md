@@ -25,7 +25,8 @@ We decided it fits better into the theme of our server.
 - The factory must work
 - Veil bonk
 - Offroad narrow roads
-- coasters
+- Create Dreams and Desires
+- Deeper oceans
 
 ## 🐛 Fixed
 

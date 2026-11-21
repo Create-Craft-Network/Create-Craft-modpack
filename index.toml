@@ -175,11 +175,6 @@ hash = "3c416226b0040265cf8b2e633dd57784311797a2d7490d130f60d39a9b6bc3ae"
 metafile = true
 
 [[files]]
-file = "mods/create-coasters-simulated.pw.toml"
-hash = "d5ec31a858ce86144784a0b35bd6ce390a5066aa8c3dfae986602620df5afbb4"
-metafile = true
-
-[[files]]
 file = "mods/create-cobblestone.pw.toml"
 hash = "06196970c8a28544798a5bb278743e3637724d94548f4e1876ed4edf3d7baf47"
 metafile = true
@@ -379,6 +374,11 @@ hash = "6b6683fd8ec53d10d4fbef3b3d53922a1aaa8ef4d2e4b52bb819dc451f5d6b3d"
 metafile = true
 
 [[files]]
+file = "mods/deeper-oceans.pw.toml"
+hash = "f796566fc58b6e3ec9cb594a769ba390ef9d1e34574f7f16408a6150ccc0785b"
+metafile = true
+
+[[files]]
 file = "mods/deployer.pw.toml"
 hash = "b5f93c7de7f0b296533f51c53536c5258a8896c4e30f0fc1bdc3c51fa3b60cb5"
 metafile = true
@@ -525,7 +525,7 @@ metafile = true
 
 [[files]]
 file = "mods/lithostitched.pw.toml"
-hash = "93f98a3019a5ce1bda97af2c3e937aaa2adbe4e4dce46e74b130d32cbfdc80a2"
+hash = "c0611d8448bc043f372a008a435e14aa238ba8fca52fd1d79634424576ea9e12"
 metafile = true
 
 [[files]]
