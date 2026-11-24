@@ -1,0 +1,16 @@
+# EXAMPLE: replace the paths below with optional mods from your own pack.
+# Put this file beside the hosted pack.toml, not in the client's config folder.
+# No PackWiz tool changes or index registration are needed for this file.
+# Paths are relative to pack.toml and point to .pw.toml metadata, not JAR files.
+# Version is the configuration format; version 1 is assumed if omitted.
+version = 1
+
+[[groups]]
+id = "cliopt"
+name = "Client opimization"
+description = "Lightweight client side optmimization mods."
+mods = [
+    "mods/create-nowheel.pw.toml",
+    "mods/entityculling.pw.toml",
+]
+

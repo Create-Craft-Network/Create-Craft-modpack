@@ -31,6 +31,7 @@ We decided it fits better into the theme of our server.
 ## 🐛 Fixed
 
 ## ⚙️ Changed
+- Fresh packwiz look!
 - Additionally all mods got updated to the latest versions!
 
 ## 🗑️ Removed
