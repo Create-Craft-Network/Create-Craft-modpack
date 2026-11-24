@@ -400,7 +400,7 @@ metafile = true
 
 [[files]]
 file = "mods/entityculling.pw.toml"
-hash = "1c554c7b15581f507524c3050ffa06b8c46456823c9df1e6395f6277dd84fdb5"
+hash = "7f1953aef6bde6fac8bb5a24bef86a110ce916c1add870ec00d667ee1f395bcb"
 metafile = true
 
 [[files]]
@@ -781,6 +781,10 @@ metafile = true
 file = "mods/yacl.pw.toml"
 hash = "492daa3391b6079b541685db276007b286774bab3b9881505127b7aef6b3f16c"
 metafile = true
+
+[[files]]
+file = "optional-groups.toml"
+hash = "c4cf718bd896e9f1344d99ea2e0d68ed76484270e9942ec0696d64fa6bba30ae"
 
 [[files]]
 file = "scripts/create_recipes.zs"
