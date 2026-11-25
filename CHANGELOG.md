@@ -32,14 +32,14 @@ We decided it fits better into the theme of our server.
 
 ## ⚙️ Changed
 - Fresh packwiz look!
-- Additionally all mods got updated to the latest versions!
+- Additionally all mods got updated to the latest versions.
 
 ## 🗑️ Removed
 - Crate powerchip
 - Create powergrid
 - TACZ
-- synaxis
-- sable photomacy
+- Create synaxis
+- Create sable photomacy
 
 ---
 
