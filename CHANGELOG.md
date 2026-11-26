@@ -3,10 +3,10 @@
 ## Update message:
 
 ## ✨ Added
-
+- player utils
 ## 🐛 Fixed
 ## ⚙️ Changed
-- Updated pack updater (new fency gui)
+- Updated pack updater (new fancy gui)
 ## 🗑️ Removed
 
 ---
