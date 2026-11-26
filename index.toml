@@ -275,16 +275,6 @@ hash = "85b3f0a0c9ce4a07dc7363cdb2926cd69b6f6e0dcf1bf2052fe827c26eced9f8"
 metafile = true
 
 [[files]]
-file = "mods/create-numismatics-create-6-0-integration.pw.toml"
-hash = "37cedf9219acc2d5b20edfea3595d6a066ebbf0c70189f8c2821b561d3acfc12"
-metafile = true
-
-[[files]]
-file = "mods/create-numismatics-plus.pw.toml"
-hash = "59f09ac95bf6670e24bfe3411ecd084fe62a1fc139da1712b94830fa6f888193"
-metafile = true
-
-[[files]]
 file = "mods/create-octo-arms.pw.toml"
 hash = "16ece98bba8b29d9123cec4a9c1b9684873d7a686992a153735830e032567bde"
 metafile = true
