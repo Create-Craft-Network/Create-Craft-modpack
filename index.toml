@@ -753,6 +753,11 @@ hash = "f82badea9e041ccb63e7feed55ea29f0f5c446b42a1e6bbbdda37a56ec47fb09"
 metafile = true
 
 [[files]]
+file = "mods/spark.pw.toml"
+hash = "5995decc8738d7ddccec218dfa1ed95db9eca5bb64c98fd2cede8bf9bbc837c2"
+metafile = true
+
+[[files]]
 file = "mods/steam-n-rails-neoforge.pw.toml"
 hash = "a2681409a01e496281b21d383cb28043efc4425f7110d21dfd8b6362e258a817"
 metafile = true
