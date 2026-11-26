@@ -1,0 +1,13 @@
+name = "Simple Trading"
+filename = "simpletrading-neoforge-1.2.0.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/AIX3SW2N/versions/sJdKoSRI/simpletrading-neoforge-1.2.0.jar"
+hash-format = "sha512"
+hash = "e1a35583266740d1f4f5381e2c899be89bff6a411bf6e080c44d64d60439103378c9522e763d1d98f20e5de2b6e26f6c25e6b5ad662fbf3cc3a86f86c50b78b0"
+
+[update]
+[update.modrinth]
+mod-id = "AIX3SW2N"
+version = "sJdKoSRI"

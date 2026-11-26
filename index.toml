@@ -80,6 +80,11 @@ hash = "1e35822d7c167184d78651887d9823feca7a128688daedfdb93f0a33a3e2c1cf"
 metafile = true
 
 [[files]]
+file = "mods/chunky.pw.toml"
+hash = "68cc51e721e993a8b7a2cbaf45369933b22b07a9c82327ab14757ee10684aa81"
+metafile = true
+
+[[files]]
 file = "mods/clumps.pw.toml"
 hash = "2acaff560bbda5741538528a2967355ec86a8f7564adba0b2316989c66892374"
 metafile = true
@@ -275,6 +280,11 @@ hash = "37cedf9219acc2d5b20edfea3595d6a066ebbf0c70189f8c2821b561d3acfc12"
 metafile = true
 
 [[files]]
+file = "mods/create-numismatics-plus.pw.toml"
+hash = "59f09ac95bf6670e24bfe3411ecd084fe62a1fc139da1712b94830fa6f888193"
+metafile = true
+
+[[files]]
 file = "mods/create-octo-arms.pw.toml"
 hash = "16ece98bba8b29d9123cec4a9c1b9684873d7a686992a153735830e032567bde"
 metafile = true
@@ -355,8 +365,17 @@ hash = "bdd29c8a22832f076d1b055648b3ed0d3eaa9171eca2f8112a8020617f7b13f7"
 metafile = true
 
 [[files]]
+file = "mods/createcraft-player-utils-neoforge-1.21.1-2.0.0.jar"
+hash = "bf6ad169ce6d9aed4e6107238cccca273434bc3259b8166289ebc2c73aaba73d"
+
+[[files]]
 file = "mods/createnuclear.pw.toml"
 hash = "8f84b6788d9876ea1d7fa527b667482b6e26bb14af6735c4c79138d164442e68"
+metafile = true
+
+[[files]]
+file = "mods/createobbcollisioncrashfix.pw.toml"
+hash = "71bc97f9fd5f18133c97f4004b96b6bfda3d580bbc706ab503535e3650a854e5"
 metafile = true
 
 [[files]]
@@ -479,6 +498,16 @@ hash = "028e3e4108f61a7998879d0fdf083e5d8c89fd8bf4bb00a1a6ca151cc85b774a"
 metafile = true
 
 [[files]]
+file = "mods/in-control.pw.toml"
+hash = "accb3104876bae233243d28eba4a5c2966a5bf78c9e5eb17ecffbc2d014257a2"
+metafile = true
+
+[[files]]
+file = "mods/inv-view-forge.pw.toml"
+hash = "bbbcf85d575f2e53be281d07d99edb04f40591bfbf3a0b631d5aace70193c75c"
+metafile = true
+
+[[files]]
 file = "mods/jade.pw.toml"
 hash = "4b0a995f7cfa19951ba585aa320a1f4ef1a755a38b608adcff2f9ddd156b195b"
 metafile = true
@@ -495,7 +524,12 @@ metafile = true
 
 [[files]]
 file = "mods/kubejs.pw.toml"
-hash = "031e809b62d4d70a66be3e68ab7deeffba17027bb785c83b95c6dcfd4a4e6a8d"
+hash = "be9f3f981dd69822b4a3e5ab6fd677ec69a4e01dcf66c62e239b6ef65f31f0fd"
+metafile = true
+
+[[files]]
+file = "mods/kubejsable.pw.toml"
+hash = "c8b580964926896ac13be1e849e93cca61535022826c58b99d67ed72f773fb55"
 metafile = true
 
 [[files]]
@@ -539,6 +573,16 @@ hash = "2bf24ba89ee34b9c0f698a2d3ca2c64eb7676407b56ab311fa91a8dd7a1ad4a9"
 metafile = true
 
 [[files]]
+file = "mods/lpchatprefix.pw.toml"
+hash = "740ec6106321bb96252ad3c659122634bb2350889084dced0473e4b31bebc6e7"
+metafile = true
+
+[[files]]
+file = "mods/luckperms.pw.toml"
+hash = "91e6a0e562023e927ca1c56bdfd5df673609cac23528f768a83afe3674cdd0c0"
+metafile = true
+
+[[files]]
 file = "mods/mezzconfig.pw.toml"
 hash = "5d445e2ad3f047becc67fec1e8f3bf6fe22ade3a443ec301590d54d0f3b91f3a"
 metafile = true
@@ -546,6 +590,11 @@ metafile = true
 [[files]]
 file = "mods/modernfix.pw.toml"
 hash = "1fae139080953d4ac5c894d72b7a8b205cd998dd347963c8ca295762995b32b8"
+metafile = true
+
+[[files]]
+file = "mods/moonlight.pw.toml"
+hash = "f1bfac09f701fe8ac07b10bfc3c811e951611c770cd62b4d8b60eb4ead939ef6"
 metafile = true
 
 [[files]]
@@ -571,6 +620,11 @@ metafile = true
 [[files]]
 file = "mods/numismatics.pw.toml"
 hash = "8938803461885a35dfad98d00ba94ea4d56926b263e623a53b170a1997e9bb6d"
+metafile = true
+
+[[files]]
+file = "mods/observable.pw.toml"
+hash = "f9cfe1c9c47eef3adabf8706e2a026e0fedce2dd4f31fabe10b8b892819e72a7"
 metafile = true
 
 [[files]]
@@ -650,7 +704,7 @@ metafile = true
 
 [[files]]
 file = "mods/searchables.pw.toml"
-hash = "fad6997d8eb764854dc8aae307956570c640a8e76cd8e7c1c366e8449a625c7a"
+hash = "c0c0263f466915dbaa053439d453ee729cb995663f15cb5a40e706d63f626b77"
 metafile = true
 
 [[files]]
@@ -666,6 +720,11 @@ metafile = true
 [[files]]
 file = "mods/simple-planes.pw.toml"
 hash = "630974a81703b003e5253635fae4b2f928ef40fde0d63e18b6d185ca373fabaa"
+metafile = true
+
+[[files]]
+file = "mods/simple-trading.pw.toml"
+hash = "0cf1d8ba7b6bebe00cb70847b2e1c6c3dd598c62a1a2acdc3f6ccffdca21d328"
 metafile = true
 
 [[files]]
@@ -784,7 +843,7 @@ metafile = true
 
 [[files]]
 file = "mods/yacl.pw.toml"
-hash = "492daa3391b6079b541685db276007b286774bab3b9881505127b7aef6b3f16c"
+hash = "539f362e9e192cf3b2813e0dfdfc51a5e6814129c6e82a9733842529beea6242"
 metafile = true
 
 [[files]]

@@ -27,6 +27,7 @@ We decided it fits better into the theme of our server.
 - Offroad narrow roads
 - Create Dreams and Desires
 - Deeper oceans
+- Create numismatics plus
 
 ## 🐛 Fixed
 
