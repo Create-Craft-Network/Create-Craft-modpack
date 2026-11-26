@@ -1,13 +1,12 @@
 
-# 🚀 Create Craft - Version 6.6.7
+# 🚀 Create Craft - Version 6.6.8
 ## Update message:
 
 ## ✨ Added
-
+- player utils
 ## 🐛 Fixed
-
 ## ⚙️ Changed
-- updated tsa anticheat
+- Updated pack updater (new fancy gui)
 ## 🗑️ Removed
 
 ---

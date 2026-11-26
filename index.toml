@@ -357,6 +357,10 @@ hash = "e55818e04fcaeb7bc0edce1cec106bc88cfd56d2bdbcc228fb374f797ef598cc"
 metafile = true
 
 [[files]]
+file = "mods/createcraft-player-utils-neoforge-1.21.1-2.0.0.jar"
+hash = "bf6ad169ce6d9aed4e6107238cccca273434bc3259b8166289ebc2c73aaba73d"
+
+[[files]]
 file = "mods/createnuclear.pw.toml"
 hash = "67ab07725f633de3c427914656c6ada7b0cd094cfee4ef34a7f8b4b0684bcf14"
 metafile = true
@@ -546,7 +550,7 @@ metafile = true
 
 [[files]]
 file = "mods/packupdater.pw.toml"
-hash = "f068e6daa83276351a11f2e0bd68f719fc6258c21742e33d8d1035cc12789171"
+hash = "0b375165f7fcefc17dfece58b2a6e5ba3303c88cf7666f70111d860c3ab3e66a"
 metafile = true
 
 [[files]]
