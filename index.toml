@@ -157,6 +157,11 @@ hash = "6b7d1eab81e980aef92c857323159cc4b1bc0471016eddd024cc0377f76749c7"
 metafile = true
 
 [[files]]
+file = "mods/create-aeronautics-gadgets-and-gizmos.pw.toml"
+hash = "d3b46d63d6861f9e23a46475db79e7665779cfe99ab90de2756abfca5e325490"
+metafile = true
+
+[[files]]
 file = "mods/create-aeronautics-transmission-linkage.pw.toml"
 hash = "26f50a0bc609b96aa1e2ad85cea1e17ba622580947fe75f1967b52b09185f2cb"
 metafile = true
