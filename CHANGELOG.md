@@ -4,7 +4,7 @@
 
 As you can see there is a lot comming in the new season. Before you complain about the removal of some mods please read this.
 - Why did we remove create powergrid?
-We are avare that this mod is loved by the people that started using this but from the statistics we have almoast 50% of server crashes are becaouse of the powergrid. It also caused some chunkbans o untill some bugs get fixed we are removing it to improve stability of the server.
+We are aware that this mod is loved by the people that started using this but from the statistics we have almoast 50% of server crashes are becaouse of the powergrid. It also caused some chunkbans o untill some bugs get fixed we are removing it to improve stability of the server.
 - Why did we remove tacz?
 Instead of tacz we introduce **Create Gunsmithing**!!!
 We decided it fits better into the theme of our server.
