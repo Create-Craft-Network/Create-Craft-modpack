@@ -1,12 +1,12 @@
 
-# 🚀 Create Craft - Version 6.6.8
+# 🚀 Create Craft - Version 6.6.9
 ## Update message:
 
 ## ✨ Added
-- player utils
+- Create gadgets and gizmos
 ## 🐛 Fixed
 ## ⚙️ Changed
-- Updated pack updater (new fancy gui)
+
 ## 🗑️ Removed
 
 ---
