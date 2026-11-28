@@ -24,7 +24,6 @@ We decided it fits better into the theme of our server.
 - Sable hose connectors
 - The factory must work
 - Veil bonk
-- Offroad narrow roads
 - Create Dreams and Desires
 - Deeper oceans
 
